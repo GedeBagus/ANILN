@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="text/css" href=css/style.css>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>ANILN</title>
+</head>
+
+<body>
+
+    <head>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="home.php">ANILN <b>OTAKU</b></a>
+                </button>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.php">About Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </head>
+
+    <div class="jumbotron jumbotron warna-bg">
+    </div>
+
+    <div class="konten">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <div class="header-data"> <b>Name : </b></div>
+                                <div class="item-data"><b>Ahmad Irfan F</b></div>
+                                <div class="item-data"><b>140810180034</b></div>
+                                <div class="accordion" id="accordionExample">
+                                    <div class="jumbotron jumbotron pic-bg">
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div class="header-data"> <b>Job :</b>
+                                    <div class="item-data">Back End</div>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <div class="header-data"> <b>Name : </b></div>
+                                <div class="item-data"><b>Gede Bagus Darmagita</b></div>
+                                <div class="item-data"><b>140810180068</b></div>
+                                <div class="accordion" id="accordionExample">
+                                    <div class="jumbotron jumbotron pic-bg2">
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div class="header-data"> <b>Job :</b>
+                                    <div class="item-data">Front End</div>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>&copy; ANILN Otaku</footer>
+</body>
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        color: #515155;
+    }
+
+    .my-auto p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        font-size: 2rem;
+        color: white;
+    }
+
+    .warna-bg {
+        background: url(asset/ANILN2.png);
+        background-size: 100% 100%;
+        height: 440px;
+    }
+
+    .pic-bg {
+        background: url(asset/1.jpg);
+        background-size: 100% 100%;
+        height: 600px;
+    }
+
+    .pic-bg2 {
+        background: url(asset/2.jpg);
+        background-size: 100% 100%;
+        height: 600px;
+    }
+
+    .has-search .form-control {
+        padding-left: 2.375rem;
+    }
+
+    .has-search .form-control-feedback {
+        position: absolute;
+        z-index: 2;
+        display: block;
+        width: 2.375rem;
+        height: 2.375rem;
+        line-height: 2.375rem;
+        text-align: center;
+        pointer-events: none;
+        color: #aaa;
+        margin-top: 5px
+    }
+
+    .form-control {
+        background-color: white;
+        border: 0;
+    }
+
+    .layout {
+        margin-top: -60px;
+    }
+
+    .header-data {
+        padding-right: 15px;
+        justify-content: space-between;
+        font-weight: 500;
+        letter-spacing: 2%;
+    }
+
+    .item-data {
+        padding-right: 15px;
+        justify-content: space-between;
+        font-weight: 400;
+        letter-spacing: 2%;
+    }
+
+    .data {
+        line-height: 30px;
+        padding-bottom: 10px;
+    }
+
+    .card {
+        margin-bottom: 40px;
+        border-radius: 10px;
+    }
+</style>
+</body>
+
+</html>

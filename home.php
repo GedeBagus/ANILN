@@ -16,11 +16,11 @@
   <head>
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light ">
-        <a class="navbar-brand" href="index.php">ANILN <b>OTAKU</b></a>
+        <a class="navbar-brand" href="home.php">ANILN <b>OTAKU</b></a>
         </button>
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link">More Than Just Otaku</a>
+            <a class="nav-link" href="aboutus.php">About Us</a>
           </li>
         </ul>
       </nav>
@@ -32,7 +32,7 @@
   if (isset($_POST['search-aniln'])) {
     $test = $_POST['search-aniln'];
     $data = sparql_get(
-      "http://localhost:3030/test",
+      "http://localhost:3030/aniln",
       "
         PREFIX p: <http://Aniln.com>
         PREFIX d: <http://Aniln.com/ns/data#>
@@ -54,7 +54,7 @@
     );
   } else {
     $data = sparql_get(
-      "http://localhost:3030/test",
+      "http://localhost:3030/aniln",
       "
         PREFIX p: <http://Aniln.com>
         PREFIX d: <http://Aniln.com/ns/data#>
