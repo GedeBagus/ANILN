@@ -1,0 +1,33 @@
+PREFIX p: <http://Aniln.com>
+PREFIX d: <http://Aniln.com/ns/data#>
+
+SELECT ?Nama ?Tipe ?Sinopsis ?Rilis ?Penerbit ?Status ?JumlahEps
+WHERE
+{ 
+    ?s  d:nama ?Nama;
+        d:jenis ?Tipe;
+        d:sinopsis ?Sinopsis;
+        d:airedPublished ?Rilis;
+        d:studiosAuthor ?Penerbit;
+        d:status ?Status;
+        d:episodeChapter ?JumlahEps
+}
+
+# PREFIX p: <http://Aniln.com>
+# PREFIX d: <http://Aniln.com/ns/data#>
+# PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+# PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+# PREFIX text: <http://jena.apache.org/text#>
+
+# SELECT ?Nama ?Tipe ?Sinopsis ?Rilis ?Penerbit ?Status ?JumlahEps 
+# WHERE
+# { 
+#     ?s  d:nama ?Nama;
+#         d:jenis ?Tipe;
+#         d:sinopsis ?Sinopsis;
+#         d:airedPublished ?Rilis;
+#         d:studiosAuthor ?Penerbit;
+#         d:status ?Status;
+#         d:episodeChapter ?JumlahEps
+#   		FILTER regex(?Nama, "Gintama")
+# }
