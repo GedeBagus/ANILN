@@ -1,0 +1,162 @@
+PREFIX p: <http://Aniln.com>
+PREFIX d: <http://Aniln.com/ns/data#>
+
+d:P36        d:nama	               "Overlord" ;
+             d:jenis       	       "Light Novel" ;
+             d:sinopsis            "Yggdrasil is a virtual reality game renowned for the freedom it offers its players. After a simple tutorial, players are left to explore the world and can customize anything and everything, from their classes to their weapons. However, in the year 2138, the game sees its final hours as its servers shut down at midnight." ;
+             d:airedPublished      "Jul 30, 2012 to ?" ;
+             d:studiosAuthor       "Maruyama, Kugane (Story), so-bin (Art)" ;
+             d:status              "Publishing";
+             d:episodeChapter       14.
+
+d:P37        d:nama	               "86—Eighty-Six" ;
+             d:jenis       	       "Light Novel" ;
+             d:sinopsis            "Nine years ago, the Empire of Giad declared war on all neighboring countries using an army of autonomous drones known as the Legion. Threatened by the soulless killing machines, the Republic of San Magnolia, home to the silver-haired Alba race, evacuated its citizens inside 85 districts and developed supposedly unmanned drones known as Juggernauts to counter the Legion. Even after years of war, the Republic boasts that they have suffered zero casualties. However, the battlefield bathed in crimson recites a different melody..." ;
+             d:airedPublished      "Feb 10, 2017 to ?" ;
+             d:studiosAuthor       "Shirabi (Art), Asato, Asato (Story)" ;
+             d:status              "Publishing";
+             d:episodeChapter       21.
+
+d:P38        d:nama	               "Zaregoto Series" ;
+             d:jenis       	       "Light Novel" ;
+             d:sinopsis            "The story revolves around an unnamed protagonist and the murders and mysteries he encounters. He tries in vain to stay out of the story, but instead, he always gets dragged into the center of everything. Even though it seems that he contributes a lot, he always finds out that whatever he did was meaningless in the end." ;
+             d:airedPublished      "Feb 5, 2002 to Nov 7, 2005" ;
+             d:studiosAuthor       "NISIO, ISIN (Story), Take (Art)" ;
+             d:status              "Finished";
+             d:episodeChapter       71.
+
+d:P39        d:nama	               "Kono Subarashii Sekai ni Shukufuku wo!" ;
+             d:jenis       	       "Light Novel" ;
+             d:sinopsis            "Game loving shut-in Kazuma Satou's life as a young schoolboy in Japan abruptly comes to an early end...or at least it was supposed to. When he opens his eyes, though, he sees a beautiful goddess that offers him a once in an after-lifetime chance to be reborn in a parallel world. The catch is that the world is violent and threatened by a growing evil! Fortunately, he can choose any one thing to bring with him. So he chooses the goddess, Aqua! And so his adventure with his gorgeous companion begins—if he could just get enough money and food to survive, keep his goddess out of trouble, and avoid grabbing the attention of the Demon King's army!" ;
+             d:airedPublished      "Oct 1, 2013 to May 1, 2020" ;
+             d:studiosAuthor       "Mishima, Kurone (Art), Akatsuki, Natsume (Story)" ;
+             d:status              "Finished";
+             d:episodeChapter       127.
+
+d:P40        d:nama	               "Mushoku Tensei: Isekai Ittara Honki Dasu" ;
+             d:jenis       	       "Light Novel" ;
+             d:sinopsis            "Killed while saving a stranger from a traffic collision, a 34-year-old NEET is reincarnated into a world of magic as Rudeus Greyrat, a newborn baby. With knowledge, experience, and regrets from his previous life retained, Rudeus vows to lead a fulfilling life and not repeat his past mistakes." ;
+             d:airedPublished      "Jan 23, 2014 to ?" ;
+             d:studiosAuthor       "Rifujin na Magonote (Story), Sirotaka (Art)" ;
+             d:status              "Publishing";
+             d:episodeChapter       132.
+
+d:P41        d:nama	               "Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?" ;
+             d:jenis       	       "Light Novel" ;
+             d:sinopsis            "Five hundred years have passed since the humans went extinct at the hands of the fearsome and mysterious 'Beasts.' The surviving races now make their homes up on floating islands in the sky, out of reach of all but the most mobile of Beasts. However, this new safe haven Regul Aire has a dark secret behind it." ;
+             d:airedPublished      "Nov 1, 2014 to Apr 1, 2016" ;
+             d:studiosAuthor       "Kareno, Akira (Story), ue (Art)" ;
+             d:status              "Finished";
+             d:episodeChapter       25.
+
+d:P42        d:nama	               "Violet Evergarden" ;
+             d:jenis       	       "Light Novel" ;
+             d:sinopsis            "Auto-Memories Dolls were created with the purpose of recording one's speech and emotions. First invented by Dr. Orland to bring happiness to his wife, such dolls are now being loaned by companies after knowledge of his work became public. Moved by the work of the Auto-Memories Dolls, a woman named Violet Evergarden decides to take up their duties. Beautiful, with golden hair and crystal-blue eyes, she quickly becomes the most popular doll, leaving all her clients delighted by her company." ;
+             d:airedPublished      "Dec 25, 2015 to Dec 26, 2016" ;
+             d:studiosAuthor       "Akatsuki, Kana (Story), Takase, Akiko (Art)" ;
+             d:status              "Finished";
+             d:episodeChapter       13.
+
+d:P43        d:nama	               "Kino no Tabi: The Beautiful World" ;
+             d:jenis       	       "Light Novel" ;
+             d:sinopsis            "Destination is a state of mind. A tale of one girl and her bike and the road ahead. Kino wanders around the world on the back of Hermes, her unusual, anthropomorphic motorcycle, only staying in each country for three days. During their adventures, they find happiness, sadness, pain, decadence, violence, beauty, and wisdom. But through it all, they never lose their sense of freedom. They discover that because of the world's imperfections, it is actually a thing of beauty. The world is not beautiful, therefore it is." ;
+             d:airedPublished      "Mar 10, 2000 to ?" ;
+             d:studiosAuthor       "Sigsawa, Keiichi (Story), Kuroboshi, Kouhaku (Art)" ;
+             d:status              "Publishing";
+             d:episodeChapter       6.
+
+d:P44        d:nama	               "Fate/Zero" ;
+             d:jenis       	       "Light Novel" ;
+             d:sinopsis            "The Holy Grail War is a ritualistic battle fought to determine who is worthy of commanding the Holy Grail: an omnipotent wish-granting device. The war is held between seven mages, each armed with their own familiar, an ancient heroic spirit of legend. The Einzberns, a major contender in the grail war, have recruited the infamous mage killer Kiritsugu Emiya as their representative in the Fourth Holy Grail War. Though armed with his own arsenal, Kiritsugu is faced with six other mages vying to win. From bettering humanity to garnering respect, all opponents have their own reasons for seeking the Holy Grail." ;
+             d:airedPublished      "Dec 29, 2006 to Dec 29, 2007" ;
+             d:studiosAuthor       "Takeuchi, Takashi (Art), Urobuchi, Gen (Story)" ;
+             d:status              "Finished";
+             d:episodeChapter       18.
+
+d:P45        d:nama	               "Baccano!" ;
+             d:jenis       	       "Light Novel" ;
+             d:sinopsis            "Aboard the Advenna Avis in 1711, a group of alchemists summon a demon in the hopes of gaining eternal life. The demon gives them an elixir of immortality and the method of ending their existence by devouring one another. Soon after, one among them begins to devour his companions. Realizing the danger posed by staying together, they scatter across the globe." ;
+             d:airedPublished      "Feb 10, 2003 to ?" ;
+             d:studiosAuthor       "Narita, Ryohgo (Story), Enami, Katsumi (Art)" ;
+             d:status              "Publishing";
+             d:episodeChapter       26.
+
+d:P46        d:nama	               "Suzumiya Haruhi Series" ;
+             d:jenis       	       "Light Novel" ;
+             d:sinopsis            "As the students of Class 1-5 introduce themselves at the beginning of their high school careers, the cynical but otherwise fairly ordinary boy known as Kyon sits down, having just finished his piece. However, when the girl sitting behind him stands up to give her speech, the words she utters dumbfound the entire class. Proclaiming that she has no interest in ordinary humans and is in search of the supernatural, Haruhi Suzumiya makes her unforgettable debut." ;
+             d:airedPublished      "Jun 6, 2003 to ?" ;
+             d:studiosAuthor       "Tanigawa, Nagaru (Story), Itou, Noizi (Art)" ;
+             d:status              "Publishing";
+             d:episodeChapter       45.
+
+d:P47        d:nama	               "No Game No Life" ;
+             d:jenis       	       "Light Novel" ;
+             d:sinopsis            "The internet is home to countless urban legends, but the most prominent is the mysterious gamer known only as Blank. Behind breaking records in hundreds of games, Blank is just two shut-in NEET siblings: the manipulative 18-year-old Sora and the 11-year-old detached genius, Shiro. Together, they are an unbeatable duo with zero losses to their name." ;
+             d:airedPublished      "Apr 25, 2012 to ?" ;
+             d:studiosAuthor       "Kamiya, Yuu (Story & Art)" ;
+             d:status              "Publishing";
+             d:episodeChapter       25.
+
+d:P48        d:nama	               "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen" ;
+             d:jenis       	       "Light Novel" ;
+             d:sinopsis            "Motosu Urano, a book-loving college student who just got her Librarian certification and was supposed to enter the job of her dreams after graduation, was killed during a massive earthquake crushing her underneath a pile of her own massive collection of books." ;
+             d:airedPublished      "Jan 25, 2015 to ?" ;
+             d:studiosAuthor       "Shiina, You (Art), Kazuki, Miya (Story)" ;
+             d:status              "Publishing";
+             d:episodeChapter       667.
+
+d:P49        d:nama	               "Seishun Buta Yarou Series" ;
+             d:jenis       	       "Light Novel" ;
+             d:sinopsis            "One day, in the library where Sakuta Azusagawa studies, he runs into an unexpected sight: a beautiful high school girl in a bunny outfit. She turns out to be Mai Sakurajima, a famous former actress and fellow student at Minegahara High. His surprise at seeing Mai wear such risqué attire in the library, however, is nothing compared to the shocking realization that he is the only one who can see her" ;
+             d:airedPublished      "Apr 10, 2014 to ?" ;
+             d:studiosAuthor       "Kamoshida, Hajime (Story), Mizoguchi, Keiji (Art)" ;
+             d:status              "Publishing";
+             d:episodeChapter       17.
+
+d:P50        d:nama	               "Fullmetal Alchemist" ;
+             d:jenis       	       "Light Novel" ;
+             d:sinopsis            "Somewhere between magic, art and science exists a world of alchemy. And into this world travel Edward and Alphonse Elric—two brothers in search of the Philosopher's Stone, the ultimate alchemical treasure!" ;
+             d:airedPublished      "Feb , 2003 to Apr 22, 2010" ;
+             d:studiosAuthor       "Arakawa, Hiromu (Art), Inoue, Makoto (Story)" ;
+             d:status              "Finished";
+             d:episodeChapter       35.
+
+d:P51        d:nama	               "Steins;Gate" ;
+             d:jenis       	       "Light Novel" ;
+             d:sinopsis            "The story of Steins;Gate takes place in Akihabara and is about a group of friends who have managed to customize their microwave into a device that can send text messages to the past. As they perform different experiments, an organization named SERN who has been doing their own research on time travel tracks them down and now the characters have to find a way to avoid being captured by them." ;
+             d:airedPublished      "Jun 30, 2011 to May 31, 2012" ;
+             d:studiosAuthor       "Sakai, Kyuuta (Art), Miwa, Kiyomune (Story)" ;
+             d:status              "Finished";
+             d:episodeChapter       17.
+
+d:P52        d:nama	               "Umineko no Naku Koro ni" ;
+             d:jenis       	       "Light Novel" ;
+             d:sinopsis            "Considered as the third installment in the highly popular When They Cry series by 07th Expansion, Umineko no Naku Koro ni takes place on the island of Rokkenjima, owned by the immensely wealthy Ushiromiya family. As customary per year, the entire family is gathering on the island for a conference that discusses the current financial situations of each respective person. Because of the family head's poor health, this year involves the topic of the head of the family's inheritance and how it will be distributed." ;
+             d:airedPublished      "Jul 1, 2009 to Aug 3, 2010" ;
+             d:studiosAuthor       "Ryukishi07 (Story), Tomohi (Art)" ;
+             d:status              "Finished";
+             d:episodeChapter       53.
+
+d:P53        d:nama	               "Sen to Chihiro no Kamikakushi / Spirited Away" ;
+             d:jenis       	       "Anime" ;
+             d:sinopsis            "Stubborn, spoiled, and naïve, 10-year-old Chihiro Ogino is less than pleased when she and her parents discover an abandoned amusement park on the way to their new house. Cautiously venturing inside, she realizes that there is more to this place than meets the eye, as strange things begin to happen once dusk falls. Ghostly apparitions and food that turns her parents into pigs are just the start—Chihiro has unwittingly crossed over into the spirit world. Now trapped, she must summon the courage to live and work amongst spirits, with the help of the enigmatic Haku and the cast of unique characters she meets along the way." ;
+             d:airedPublished      "Jul 20, 2001" ;
+             d:studiosAuthor       "Studio Ghibli" ;
+             d:status              "Finished";
+             d:episodeChapter       1.
+
+d:P54        d:nama	               "Gintama: The Final" ;
+             d:jenis       	       "Anime" ;
+             d:sinopsis            "New Gintama movie" ;
+             d:airedPublished      "Jan 8, 2021" ;
+             d:studiosAuthor       "Bandai Namco Pictures" ;
+             d:status              "Finished";
+             d:episodeChapter       1.
+
+d:P55        d:nama	               "Jujutsu Kaisen (TV)" ;
+             d:jenis       	       "Anime" ;
+             d:sinopsis            "Idly indulging in baseless paranormal activities with the Occult Club, high schooler Yuuji Itadori spends his days at either the clubroom or the hospital, where he visits his bedridden grandfather. However, this leisurely lifestyle soon takes a turn for the strange when he unknowingly encounters a cursed item. Triggering a chain of supernatural occurrences, Yuuji finds himself suddenly thrust into the world of Curses—dreadful beings formed from human malice and negativity—after swallowing the said item, revealed to be a finger belonging to the demon Sukuna Ryoumen, the King of Curses." ;
+             d:airedPublished      "Oct 3, 2020 to Mar 27, 2021" ;
+             d:studiosAuthor       "MAPPA" ;
+             d:status              "Finished";
+             d:episodeChapter       24.

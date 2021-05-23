@@ -1,7 +1,7 @@
 PREFIX p: <http://Aniln.com>
 PREFIX d: <http://Aniln.com/ns/data#>
 
-d:P36        d:nama	               "Test" ;
+d:P56        d:nama	               "Test" ;
              d:jenis       	       "Light Novel" ;
              d:sinopsis            "Test update" ;
              d:airedPublished      "2021" ;

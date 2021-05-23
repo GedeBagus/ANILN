@@ -280,5 +280,3 @@ d:P35        d:nama	               "Shinyaku Toaru Majutsu no Index" ;
              d:studiosAuthor       "Kamachi, Kazuma (Story), Haimura, Kiyotaka (Art)" ;
              d:status              "Finished";
              d:episodeChapter       178.
-
-
