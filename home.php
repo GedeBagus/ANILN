@@ -20,7 +20,7 @@
         </button>
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="aboutus.php">About Us</a>
+            <a class="nav-link" href="aboutus.html">About Us</a>
           </li>
         </ul>
       </nav>
