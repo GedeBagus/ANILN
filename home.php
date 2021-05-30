@@ -3,182 +3,226 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
-
-  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
   <title>ANILN</title>
 </head>
 
 <body>
 
-  <head>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light ">
-        <a class="navbar-brand" href="home.php">ANILN</a>
-        </button>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="aboutus.html">About Us</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </head>
-  <?php
-  require_once("sparqllib.php");
-  $test = "";
-  if (isset($_POST['search-aniln'])) {
-    $test = $_POST['search-aniln'];
-    $data = sparql_get(
-      "http://localhost:3030/aniln",
-      "
-      PREFIX p: <http://Aniln.com>
-      PREFIX d: <http://Aniln.com/ns/data#>
-
-      SELECT ?Nama ?Tipe ?Sinopsis ?Rilis ?Penerbit ?Status ?JumlahEps
-      WHERE
-      { 
-          ?s  d:nama ?Nama;
-              d:jenis ?Tipe;
-              d:sinopsis ?Sinopsis;
-              d:airedPublished ?Rilis;
-              d:studiosAuthor ?Penerbit;
-              d:status ?Status;
-              d:episodeChapter ?JumlahEps;
-              FILTER (regex(?Nama, '$test') || regex(?Tipe, '$test') || regex(?Status,  '$test') )
-
-      }
-                  "
-    );
-  } else {
-    $data = sparql_get(
-      "http://localhost:3030/aniln",
-      "
-      PREFIX p: <http://Aniln.com>
-      PREFIX d: <http://Aniln.com/ns/data#>
-
-      SELECT ?Nama ?Tipe ?Sinopsis ?Rilis ?Penerbit ?Status ?JumlahEps
-      WHERE
-      { 
-          ?s  d:nama ?Nama;
-              d:jenis ?Tipe;
-              d:sinopsis ?Sinopsis;
-              d:airedPublished ?Rilis;
-              d:studiosAuthor ?Penerbit;
-              d:status ?Status;
-              d:episodeChapter ?JumlahEps
-      }
-                  "
-    );
-  }
-
-  if (!isset($data)) {
-    print "<p>Error: " . sparql_errno() . ": " . sparql_error() . "</p>";
-  }
-
-  //var_dump($test);
-  // $search = $_POST['search-aniln'];
-  //         var_dump($search);
-  ?>
+  
 
   <div id="App">
-    <div class="jumbotron jumbotron warna-bg">
+    <v-app>
+    <v-tabs align-with-title>
+          <v-tab>Home</v-tab>
+    <v-tab-item>
+          <div class="jumbotron jumbotron warna-bg">
     </div>
-    <button>{{}}</button>
-    <div class="main">
-      <div class="container">
-        <div class="shadow mb-5 bg-white rounded layout">
-          <div class="form-group has-search">
-            <form action="" method="post" id="nameform">
-              <div class="input-group">
-                <span class="fa fa-search fa-1x form-control-feedback"></span>
-                <input type="text" name="search-aniln" class="form-control form-control-lg " placeholder="Search Anime or Light Novel">
-                <div class="input-group-append">
-                  <button class="btn btn-secondary" type="submit"> Search
-                  </button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
+      <v-container>
+        <v-row>
+          <v-col cols="12">
+      <form @submit.prevent="submit">
+      <v-text-field
+      label="Search Anime or Light Novel"
+      color="primary"
+      v-model="input"
+      placeholder="Enter Anime or Light Novel Name"
+      @keypress.enter="show">
+  
+       <template v-slot:append>
+  
+          <v-btn
+  color="accent"
+  type="submit"
+  elevation="2"
+>Search</v-btn>
+        
+      </template>
+        
+    </v-text-field>
+    </form>
+    </v-col>
+      <v-col cols="12">
+        <h3>Search Result</h3>
+        <p>Search: <span>
+           </span></p>
+       <v-col cols="12">
+         <v-row>
+         <div v-for="(item,index) in anime_data" :key ="index">
+           <v-col cols="12"> <v-card
+    class="mx-auto"
+    max-width="800"
+  >
+  
+    <v-img
+class="white--text align--end"
+      :src="item.Image"
+      height="1142px"
+      width = "800px"
+    ></v-img>
+
+    <v-card-title>
+      {{item.Nama}}
+    </v-card-title>
+
+    <v-card-subtitle>
+    {{item.Tipe}}
+    </v-card-subtitle>
+    <v-card-subtitle>
+    {{item.Genre}}
+    </v-card-subtitle>
+
+    <v-card-actions>
+      
+      <template v-if ="reveal != item.Nama">
+      <v-btn
+        color="orange lighten-2"
+        text
+        @click="reveal = item.Nama"
+      >
+        Find out More
+      </v-btn>
+
+      <v-spacer></v-spacer>
+      <v-btn
+        icon
+        @click="reveal = item.Nama"
+      >
+        <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+      </v-btn>
+      </template>
+      <template v-if="reveal == item.Nama">
+      <v-btn
+        color="orange lighten-2"
+        text
+        @click="reveal = false"
+      >
+        Find out More
+      </v-btn>
+
+      <v-spacer></v-spacer>
+      <v-btn
+        icon
+        @click="reveal = false"
+      >
+        <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+      </v-btn>
+      </template>
+    </v-card-actions>
+
+    <v-expand-transition>
+      <div v-if="reveal == item.Nama">
+        <v-divider></v-divider>
+        <v-card-title>
+          Synopsis
+        </v-card-title>
+        <v-card-text>
+          {{item.Sinopsis}}
+        </v-card-text>
+        <v-divider></v-divider>
+        <v-card-title>
+          Status
+        </v-card-title>
+        <v-card-text>
+          {{item.Status}}
+        </v-card-text>
+        <v-divider></v-divider>
+        <v-card-title>
+          Release Date
+        </v-card-title>
+        <v-card-text>
+          {{item.Rilis}}
+        </v-card-text>
+        <v-divider></v-divider>
+        <v-card-title>
+          Episode or Chapters
+        </v-card-title>
+        <v-card-text>
+          {{item.JumlahEps}}
+        </v-card-text>
       </div>
+    </v-expand-transition>
+  </v-card></v-col>
+         </div>
+         </v-row>
+       </v-col>
+      </v-col>
+      
+    </v-row>
+    <v-btn
+          class="load_more"
+          text
+          large
+          @click="listToShow += 9"
+          block
+        >
+          Load More
+        </v-btn>
+      </v-container>
+          </v-tab-item>
+          <v-tab>About Us</v-tab>
+          <v-tab-item>
+          <div class="jumbotron jumbotron warna-bg">
     </div>
 
     <div class="konten">
-      <div class="container">
-        <h3>Search Result</h3>
-        <p>Search: <span>
-            <?php
-            if ($test != NULL) {
-              echo $test;
-            } else {
-              echo "Search Keyword";
-            }
-            ?></span></p>
-        <hr>
-        <div class="row">
-          <?php foreach ($data as $dat) : ?>
-            <div class="col-lg-6">
-              <div class="card">
-                <div class="card-body">
-                  <div class="card-title">
-                    <div class="header-data"> <b>Name : </b></div>
-                    <div class="item-data" id="nama-db"><b><?= $dat['Nama'] ?></b></div>
-                    <div class="accordion" id="accordionExample">
-                      <div class="card">
-                        <div class="card-header" id="headingOne">
-                          <h2 class="mb-0">
-                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                              Sinopsis
-                            </button>
-                          </h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <div class="header-data"> <b>Name : </b></div>
+                                <div class="item-data"><b>Ahmad Irfan F</b></div>
+                                <div class="item-data"><b>140810180034</b></div>
+                                <div class="accordion" id="accordionExample">
+                                    <div class="jumbotron jumbotron pic-bg">
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
                         </div>
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                          <div class="card-body">
-                            <?= $dat['Sinopsis'] ?>
-                          </div>
-                        </div>
-                      </div>
+                      
+                            <v-img  width="600" height="800" src="asset/1.jpg" class="rounded-lg"></v-img>
+                           
+                                <div class="header-data"> <b>Job :</b>
+                                    <div class="item-data">Back End</div>
+                                </div>
                     </div>
-                    <hr>
-                  </div>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">
-                    <div class="header-data"> <b>Anime or Light Novel :</b>
-                      <div class="item-data"><?= $dat['Tipe'] ?></div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <div class="header-data"> <b>Name : </b></div>
+                                <div class="item-data"><b>Gede Bagus Darmagita</b></div>
+                                <div class="item-data"><b>140810180068</b></div>
+                                <div class="accordion" id="accordionExample">
+                                    <div class="jumbotron jumbotron pic-bg2">
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                        
+                            <v-img
+                            width="600" height="800" src="asset/2.jpg" class="rounded-lg"></v-img>
+                        
+                                <div class="header-data"> <b>Job :</b>
+                                    <div class="item-data">Front End</div>
+                                </div>
                     </div>
-                  </li>
-                  <li class="list-group-item">
-                    <div class="header-data"> <b>Status :</b></div>
-                    <div class="item-data"><?= $dat['Status'] ?></div>
-                  </li>
-                  <li class="list-group-item">
-                    <div class="header-data"> <b>Release Date :</b></div>
-                    <div class="item-data"><?= $dat['Rilis'] ?></div>
-                  </li>
-                  <li class="list-group-item">
-                    <div class="header-data"> <b>Studios or Author :</b></div>
-                    <div class="item-data"><?= $dat['Penerbit'] ?></div>
-                  </li>
-                  <li class="list-group-item">
-                    <div class="header-data"> <b>Episode or Chapters :</b></div>
-                    <div class="item-data"><?= $dat['JumlahEps'] ?></div>
-                  </li>
-                </ul>
-              </div>
+                </div>
             </div>
-          <?php endforeach; ?>
         </div>
-      </div>
     </div>
+          </v-tab-item>
+        </v-tabs>
+    
+    </v-app>
   </div>
   <footer>&copy; ANILN Otaku</footer>
 
@@ -254,17 +298,38 @@
     border-radius: 10px;
   }
 </style>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script>
   var application = new Vue({
     el: '#App',
+    vuetify: new Vuetify(),
     data: {
+      reveal : [{
+
+      }],
+      listToShow : 8,
+      input :'',
+      anime_data : [],
       query: '',
       nodata: false
     },
     methods: {
-
+      submit(){
+        axios.post('process.php',{
+          data : this.input
+        }).then(response =>{
+            this.anime_data = response.data
+        })
+      }
     },
     created() {
+      axios.get('process.php',{
+          data : this.input
+        }).then(response =>{
+            this.anime_data = response.data
+        })
 
     }
   });

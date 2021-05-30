@@ -31,7 +31,7 @@
   if (isset($_POST['search-aniln'])) {
     $test = $_POST['search-aniln'];
     $data = sparql_get(
-      "http://d7959fbc1278.ngrok.io/aniln",
+      "http://localhost:3030/aniln",
       "
         PREFIX p: <http://Aniln.com>
         PREFIX d: <http://Aniln.com/ns/data#>
@@ -47,13 +47,13 @@
                 d:status ?Status;
                 d:genre ?Genre;
                 d:episodeChapter ?JumlahEps
-                FILTER ((regex(?Nama, '$test') || regex(?Tipe, '$test') || regex(?Status,  '$test') || regex(?Genre,  '$test'))
+                FILTER (regex(?Nama, '$test') || regex(?Tipe, '$test') || regex(?Status,  '$test') || regex(?Genre,  '$test'))
         }
             "
     );
   } else {
     $data = sparql_get(
-      "http://d7959fbc1278.ngrok.io/aniln",
+      "http://localhost:3030/aniln",
       "
         PREFIX p: <http://Aniln.com>
         PREFIX d: <http://Aniln.com/ns/data#>
