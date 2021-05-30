@@ -8,7 +8,8 @@ d:P36        d:nama	               "Overlord" ;
              d:studiosAuthor       "Maruyama, Kugane (Story), so-bin (Art)" ;
              d:status              "Publishing";
              d:genre               "Action, Fantasy, Game, Magic, Supernatural";
-             d:episodeChapter       14.
+             d:episodeChapter       14;
+             d:score                "8.68".
 
 d:P37        d:nama	               "86—Eighty-Six" ;
              d:jenis       	       "Light Novel" ;
@@ -17,7 +18,8 @@ d:P37        d:nama	               "86—Eighty-Six" ;
              d:studiosAuthor       "Shirabi (Art), Asato, Asato (Story)" ;
              d:status              "Publishing";
              d:genre               "Action, Drama, Sci-Fi, Military";
-             d:episodeChapter       21.
+             d:episodeChapter       21;
+             d:score                "8.67".
 
 d:P38        d:nama	               "Zaregoto Series" ;
              d:jenis       	       "Light Novel" ;
@@ -26,7 +28,8 @@ d:P38        d:nama	               "Zaregoto Series" ;
              d:studiosAuthor       "NISIO, ISIN (Story), Take (Art)" ;
              d:status              "Finished";
              d:genre               "Action, Mystery, Drama, Supernatural";
-             d:episodeChapter       71.
+             d:episodeChapter       71;
+             d:score                "8.66".
 
 d:P39        d:nama	               "Kono Subarashii Sekai ni Shukufuku wo!" ;
              d:jenis       	       "Light Novel" ;
@@ -35,7 +38,8 @@ d:P39        d:nama	               "Kono Subarashii Sekai ni Shukufuku wo!" ;
              d:studiosAuthor       "Mishima, Kurone (Art), Akatsuki, Natsume (Story)" ;
              d:status              "Finished";
              d:genre               "Adventure, Comedy, Fantasy, Supernatural";
-             d:episodeChapter       127.
+             d:episodeChapter       127;
+             d:score                "8.65".
 
 d:P40        d:nama	               "Mushoku Tensei: Isekai Ittara Honki Dasu" ;
              d:jenis       	       "Light Novel" ;
@@ -44,7 +48,8 @@ d:P40        d:nama	               "Mushoku Tensei: Isekai Ittara Honki Dasu" ;
              d:studiosAuthor       "Rifujin na Magonote (Story), Sirotaka (Art)" ;
              d:status              "Publishing";
              d:genre               "Fantasy";
-             d:episodeChapter       132.
+             d:episodeChapter       132;
+             d:score                "8.63".
 
 d:P41        d:nama	               "Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?" ;
              d:jenis       	       "Light Novel" ;
@@ -53,7 +58,8 @@ d:P41        d:nama	               "Shuumatsu Nani Shitemasu ka? Isogashii desu 
              d:studiosAuthor       "Kareno, Akira (Story), ue (Art)" ;
              d:status              "Finished";
              d:genre               "Drama, Fantasy, Romance, Sci-Fi";
-             d:episodeChapter       25.
+             d:episodeChapter       25;
+             d:score                "8.60".
 
 d:P42        d:nama	               "Violet Evergarden" ;
              d:jenis       	       "Light Novel" ;
@@ -62,7 +68,8 @@ d:P42        d:nama	               "Violet Evergarden" ;
              d:studiosAuthor       "Akatsuki, Kana (Story), Takase, Akiko (Art)" ;
              d:status              "Finished";
              d:genre               "Drama, Fantasy";
-             d:episodeChapter       13.
+             d:episodeChapter       13;
+             d:score                "8.62".
 
 d:P43        d:nama	               "Kino no Tabi: The Beautiful World" ;
              d:jenis       	       "Light Novel" ;
@@ -71,7 +78,8 @@ d:P43        d:nama	               "Kino no Tabi: The Beautiful World" ;
              d:studiosAuthor       "Sigsawa, Keiichi (Story), Kuroboshi, Kouhaku (Art)" ;
              d:status              "Publishing";
              d:genre               "Adventure, Mystery, Drama, Fantasy, Sci-Fi, Psychological";
-             d:episodeChapter       6.
+             d:episodeChapter       6;
+             d:score                "8.58".
 
 d:P44        d:nama	               "Fate/Zero" ;
              d:jenis       	       "Light Novel" ;
@@ -80,7 +88,8 @@ d:P44        d:nama	               "Fate/Zero" ;
              d:studiosAuthor       "Takeuchi, Takashi (Art), Urobuchi, Gen (Story)" ;
              d:status              "Finished";
              d:genre               "Action, Fantasy, Supernatural";
-             d:episodeChapter       18.
+             d:episodeChapter       18;
+             d:score                "8.58".
 
 d:P45        d:nama	               "Baccano!" ;
              d:jenis       	       "Light Novel" ;
@@ -89,7 +98,8 @@ d:P45        d:nama	               "Baccano!" ;
              d:studiosAuthor       "Narita, Ryohgo (Story), Enami, Katsumi (Art)" ;
              d:status              "Publishing";
              d:genre               "Action, Mystery, Fantasy";
-             d:episodeChapter       26.
+             d:episodeChapter       26;
+             d:score                "8.57".
 
 d:P46        d:nama	               "Suzumiya Haruhi Series" ;
              d:jenis       	       "Light Novel" ;
@@ -98,7 +108,8 @@ d:P46        d:nama	               "Suzumiya Haruhi Series" ;
              d:studiosAuthor       "Tanigawa, Nagaru (Story), Itou, Noizi (Art)" ;
              d:status              "Publishing";
              d:genre               "Comedy, Drama, School, Sci-Fi, Supernatural";
-             d:episodeChapter       45.
+             d:episodeChapter       45;
+             d:score                "8.56".
 
 d:P47        d:nama	               "No Game No Life" ;
              d:jenis       	       "Light Novel" ;
@@ -107,7 +118,8 @@ d:P47        d:nama	               "No Game No Life" ;
              d:studiosAuthor       "Kamiya, Yuu (Story & Art)" ;
              d:status              "Publishing";
              d:genre               "Comedy, Ecchi, Fantasy, Game, Supernatural";
-             d:episodeChapter       25.
+             d:episodeChapter       25;
+             d:score                "8.54".
 
 d:P48        d:nama	               "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen" ;
              d:jenis       	       "Light Novel" ;
@@ -116,7 +128,8 @@ d:P48        d:nama	               "Honzuki no Gekokujou: Shisho ni Naru Tame ni
              d:studiosAuthor       "Shiina, You (Art), Kazuki, Miya (Story)" ;
              d:status              "Publishing";
              d:genre               "Fantasy";
-             d:episodeChapter       667.
+             d:episodeChapter       667;
+             d:score                "8.52".
 
 d:P49        d:nama	               "Seishun Buta Yarou Series" ;
              d:jenis       	       "Light Novel" ;
@@ -125,7 +138,8 @@ d:P49        d:nama	               "Seishun Buta Yarou Series" ;
              d:studiosAuthor       "Kamoshida, Hajime (Story), Mizoguchi, Keiji (Art)" ;
              d:status              "Publishing";
              d:genre               "Comedy, Romance, School";
-             d:episodeChapter       17.
+             d:episodeChapter       17;
+             d:score                "8.51".
 
 d:P50        d:nama	               "Fullmetal Alchemist" ;
              d:jenis       	       "Light Novel" ;
@@ -134,7 +148,8 @@ d:P50        d:nama	               "Fullmetal Alchemist" ;
              d:studiosAuthor       "Arakawa, Hiromu (Art), Inoue, Makoto (Story)" ;
              d:status              "Finished";
              d:genre               "Action, Adventure, Comedy, Mystery, Drama, Historical, Shounen, Supernatural, Psychological";
-             d:episodeChapter       35.
+             d:episodeChapter       35;
+             d:score                "8.47".
 
 d:P51        d:nama	               "Steins;Gate" ;
              d:jenis       	       "Light Novel" ;
@@ -143,7 +158,8 @@ d:P51        d:nama	               "Steins;Gate" ;
              d:studiosAuthor       "Sakai, Kyuuta (Art), Miwa, Kiyomune (Story)" ;
              d:status              "Finished";
              d:genre               "Sci-Fi, Thriller";
-             d:episodeChapter       17.
+             d:episodeChapter       17;
+             d:score                "8.47".
 
 d:P52        d:nama	               "Umineko no Naku Koro ni" ;
              d:jenis       	       "Light Novel" ;
@@ -152,7 +168,8 @@ d:P52        d:nama	               "Umineko no Naku Koro ni" ;
              d:studiosAuthor       "Ryukishi07 (Story), Tomohi (Art)" ;
              d:status              "Finished";
              d:genre               "Mystery, Fantasy, Horror, Supernatural, Psychological, Thriller";
-             d:episodeChapter       53.
+             d:episodeChapter       53;
+             d:score                "8.47".
 
 d:P53        d:nama	               "Sen to Chihiro no Kamikakushi / Spirited Away" ;
              d:jenis       	       "Anime" ;
@@ -161,7 +178,8 @@ d:P53        d:nama	               "Sen to Chihiro no Kamikakushi / Spirited Awa
              d:studiosAuthor       "Studio Ghibli" ;
              d:status              "Finished";
              d:genre               "Adventure, Supernatural, Drama";
-             d:episodeChapter       1.
+             d:episodeChapter       1;
+             d:score                "8.81".
 
 d:P54        d:nama	               "Gintama: The Final" ;
              d:jenis       	       "Anime" ;
@@ -170,7 +188,8 @@ d:P54        d:nama	               "Gintama: The Final" ;
              d:studiosAuthor       "Bandai Namco Pictures" ;
              d:status              "Finished";
              d:genre               "Action, Sci-Fi, Comedy, Historical, Parody, Drama, Samurai, Shounen";
-             d:episodeChapter       1.
+             d:episodeChapter       1;
+             d:score                "8.80".
 
 d:P55        d:nama	               "Jujutsu Kaisen (TV)" ;
              d:jenis       	       "Anime" ;
@@ -179,4 +198,5 @@ d:P55        d:nama	               "Jujutsu Kaisen (TV)" ;
              d:studiosAuthor       "MAPPA" ;
              d:status              "Finished";
              d:genre               "Action, Demons, Supernatural, School, Shounen";
-             d:episodeChapter       24.
+             d:episodeChapter       24;
+             d:score                "8.78".

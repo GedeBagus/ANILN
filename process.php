@@ -10,7 +10,7 @@
       PREFIX p: <http://Aniln.com>
       PREFIX d: <http://Aniln.com/ns/data#>
 
-      SELECT ?Nama ?Tipe ?Sinopsis ?Rilis ?Penerbit ?Status ?Genre ?Image ?JumlahEps
+      SELECT ?Nama ?Tipe ?Sinopsis ?Rilis ?Penerbit ?Status ?Genre ?Image ?JumlahEps ?Score
       WHERE
       { 
           ?s  d:nama ?Nama;
@@ -22,6 +22,7 @@
               d:genre ?Genre;
               d:image ?Image;
               d:episodeChapter ?JumlahEps;
+              d:score ?Score
               FILTER (regex(?Nama, '$test') || regex(?Tipe, '$test') || regex(?Status,  '$test') || regex(?Genre, '$test'))
 
       }
@@ -34,7 +35,7 @@
       PREFIX p: <http://Aniln.com>
       PREFIX d: <http://Aniln.com/ns/data#>
 
-      SELECT ?Nama ?Tipe ?Sinopsis ?Rilis ?Penerbit ?Status ?Genre ?JumlahEps ?Image
+      SELECT ?Nama ?Tipe ?Sinopsis ?Rilis ?Penerbit ?Status ?Genre ?JumlahEps ?Image ?Score
       WHERE
       { 
           ?s  d:nama ?Nama;
@@ -45,7 +46,8 @@
               d:status ?Status;
               d:genre ?Genre;
               d:image ?Image;
-              d:episodeChapter ?JumlahEps
+              d:episodeChapter ?JumlahEps;
+              d:score ?Score
       }
                   "
     );

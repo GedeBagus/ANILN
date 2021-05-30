@@ -9,7 +9,8 @@ d:P01        d:nama	               "Fullmetal Alchemist: Brotherhood" ;
              d:status              "Finished";
              d:genre               "Action, Military, Adventure, Comedy, Drama, Magic, Fantasy, Shounen";
              d:image            "https://cdn.myanimelist.net/images/anime/1208/94745l.webp";
-             d:episodeChapter       64.
+             d:episodeChapter       64;
+             d:score                "9.17".
 
 d:P02        d:nama	               "Shingeki no Kyojin Season 3 Part 2" ;
              d:jenis       	       "Anime" ;
@@ -19,7 +20,8 @@ d:P02        d:nama	               "Shingeki no Kyojin Season 3 Part 2" ;
              d:status              "Finished";
              d:genre               "Action, Drama, Fantasy, Military, Mystery, Shounen, Super Power";
              d:image                "https://cdn.myanimelist.net/images/anime/1533/99663l.webp";
-             d:episodeChapter       10.
+             d:episodeChapter       10;
+             d:score                "9.11".
 
 d:P03        d:nama	               "Steins;Gate" ;
              d:jenis       	       "Anime" ;
@@ -29,7 +31,8 @@ d:P03        d:nama	               "Steins;Gate" ;
              d:status              "Finished";
              d:genre               "Sci-Fi, Psychological, Drama, Thriller";
              d:image                "https://cdn.myanimelist.net/images/anime/1167/96846l.webp";
-             d:episodeChapter       24.
+             d:episodeChapter       24;
+             d:score                "9.10".
 
 d:P04        d:nama	               "Gintama Season 4" ;
              d:jenis       	       "Anime" ;
@@ -39,7 +42,8 @@ d:P04        d:nama	               "Gintama Season 4" ;
              d:status              "Finished";
              d:genre               "Action, Comedy, Historical, Parody, Samurai, Sci-Fi, Shounen";
              d:image                "https://cdn.myanimelist.net/images/anime/3/72078l.webp";
-             d:episodeChapter       51.
+             d:episodeChapter       51;
+             d:score                "9.09".
 
 d:P05        d:nama	               "Hunter x Hunter" ;
              d:jenis       	       "Anime" ;
@@ -49,7 +53,8 @@ d:P05        d:nama	               "Hunter x Hunter" ;
              d:status              "Finished";
              d:genre               "Action, Adventure, Fantasy, Shounen, Super Power";
              d:image                "https://cdn.myanimelist.net/images/anime/11/33657l.webp";
-             d:episodeChapter       148.
+             d:episodeChapter       148;
+             d:score                "9.07".
 
 d:P06        d:nama	               "Ginga Eiyuu Densetsu" ;
              d:jenis       	       "Anime" ;
@@ -59,7 +64,8 @@ d:P06        d:nama	               "Ginga Eiyuu Densetsu" ;
              d:status              "Finished";
              d:genre               "Military, Sci-Fi, Space, Drama";
              d:image                "https://cdn.myanimelist.net/images/anime/1935/103040l.webp";
-             d:episodeChapter       110.
+             d:episodeChapter       110;
+             d:score                "9.06".
 
 d:P07        d:nama	               "Gintama Season 2" ;
              d:jenis       	       "Anime" ;
@@ -69,7 +75,8 @@ d:P07        d:nama	               "Gintama Season 2" ;
              d:status              "Finished";
              d:genre               "Action, Sci-Fi, Comedy, Historical, Parody, Samurai, Shounen";
              d:image                "https://cdn.myanimelist.net/images/anime/4/50361l.webp";
-             d:episodeChapter       51.
+             d:episodeChapter       51;
+             d:score                "9.06".
 
 d:P08        d:nama	               "Gintama: Enchousen" ;
              d:jenis       	       "Anime" ;
@@ -79,7 +86,8 @@ d:P08        d:nama	               "Gintama: Enchousen" ;
              d:status              "Finished";
              d:genre               "Action, Comedy, Historical, Parody, Samurai, Sci-Fi, Shounen";
              d:image                "https://cdn.myanimelist.net/images/anime/6/75172l.webp";
-             d:episodeChapter       13.
+             d:episodeChapter       13;
+             d:score                "9.04".
 
 d:P09        d:nama	               "Shingeki no Kyojin: The Final Season" ;
              d:jenis       	       "Anime" ;
@@ -89,7 +97,8 @@ d:P09        d:nama	               "Shingeki no Kyojin: The Final Season" ;
              d:status              "Finished";
              d:genre               "Action, Military, Mystery, Super Power, Drama, Fantasy, Shounen";
              d:image                "https://cdn.myanimelist.net/images/anime/1773/109409l.webp";
-             d:episodeChapter       16.
+             d:episodeChapter       16;
+             d:score                "9.00".
 
 d:P10        d:nama	               "3-gatsu no Lion 2nd Season" ;
              d:jenis       	       "Anime" ;
@@ -99,7 +108,8 @@ d:P10        d:nama	               "3-gatsu no Lion 2nd Season" ;
              d:status              "Finished";
              d:genre               "Drama, Game, Seinen, Slice of Life";
              d:image                "https://cdn.myanimelist.net/images/anime/3/88469l.webp";
-             d:episodeChapter       22.
+             d:episodeChapter       22;
+             d:score                "8.99".
 
 d:P11        d:nama	               "Gintama Season 5" ;
              d:jenis       	       "Anime" ;
@@ -109,7 +119,8 @@ d:P11        d:nama	               "Gintama Season 5" ;
              d:status              "Finished";
              d:genre               "Action, Comedy, Historical, Parody, Samurai, Sci-Fi, Shounen";
              d:image                "https://cdn.myanimelist.net/images/anime/3/83528l.webp";
-             d:episodeChapter       12.
+             d:episodeChapter       12;
+             d:score                "8.98".
 
 d:P12        d:nama	               "Koe no Katachi / A Silent Voice" ;
              d:jenis       	       "Anime" ;
@@ -119,7 +130,8 @@ d:P12        d:nama	               "Koe no Katachi / A Silent Voice" ;
              d:status              "Finished";
              d:genre               "Drama, School, Shounen";
              d:image                "https://cdn.myanimelist.net/images/anime/3/80136l.webp";
-             d:episodeChapter       1.
+             d:episodeChapter       1;
+             d:score                "8.95".
 
 d:P13        d:nama	               "Clannad: After Story" ;
              d:jenis       	       "Anime" ;
@@ -129,7 +141,8 @@ d:P13        d:nama	               "Clannad: After Story" ;
              d:status              "Finished";
              d:genre               "Slice of Life, Comedy, Supernatural, Drama, Romance";
              d:image                "https://cdn.myanimelist.net/images/anime/1299/110774l.webp";
-             d:episodeChapter       24.
+             d:episodeChapter       24;
+             d:score                "8.95".
 
 d:P14        d:nama	               "Gintama" ;
              d:jenis       	       "Anime" ;
@@ -139,7 +152,8 @@ d:P14        d:nama	               "Gintama" ;
              d:status              "Finished";
              d:genre               "Action, Comedy, Historical, Parody, Samurai, Sci-Fi, Shounen";
              d:image                "https://cdn.myanimelist.net/images/anime/1631/110791l.webp";
-             d:episodeChapter       201.
+             d:episodeChapter       201;
+             d:score                "8.95".
 
 d:P15        d:nama	               "Gintama Movie 2: Kanketsu-hen - Yorozuya yo Eien Nare" ;
              d:jenis       	       "Anime" ;
@@ -149,7 +163,8 @@ d:P15        d:nama	               "Gintama Movie 2: Kanketsu-hen - Yorozuya yo 
              d:status              "Finished";
              d:genre               "Action, Sci-Fi, Comedy, Historical, Parody, Samurai, Shounen";
              d:image                "https://cdn.myanimelist.net/images/anime/8/47621l.webp";
-             d:episodeChapter       1.
+             d:episodeChapter       1;
+             d:score                "8.95".
 
 d:P16        d:nama	               "Kimi no Na wa" ;
              d:jenis       	       "Anime" ;
@@ -159,7 +174,8 @@ d:P16        d:nama	               "Kimi no Na wa" ;
              d:status              "Finished";
              d:genre               "Romance, Supernatural, School, Drama";
              d:image                "https://cdn.myanimelist.net/images/anime/9/77484l.webp";
-             d:episodeChapter       1.
+             d:episodeChapter       1;
+             d:score                "8.93".
 
 d:P17        d:nama	               "Owarimonogatari 2nd Season" ;
              d:jenis       	       "Anime" ;
@@ -169,7 +185,8 @@ d:P17        d:nama	               "Owarimonogatari 2nd Season" ;
              d:status              "Finished";
              d:genre               "Mystery, Comedy, Supernatural, Vampire";
              d:image                "https://cdn.myanimelist.net/images/anime/1143/90209l.webp";
-             d:episodeChapter       7.
+             d:episodeChapter       7;
+             d:score                "8.93".
 
 d:P18        d:nama	               "Code Geass: Hangyaku no Lelouch R2" ;
              d:jenis       	       "Anime" ;
@@ -179,7 +196,8 @@ d:P18        d:nama	               "Code Geass: Hangyaku no Lelouch R2" ;
              d:status              "Finished";
              d:genre               "Action, Military, Sci-Fi, Super Power, Drama, Mecha";
              d:image                "https://cdn.myanimelist.net/images/anime/10/50329l.webp";
-             d:episodeChapter       25.
+             d:episodeChapter       25;
+             d:score                "8.91".
 
 d:P19        d:nama	               "Fruits Basket: The Final" ;
              d:jenis       	       "Anime" ;
@@ -189,7 +207,8 @@ d:P19        d:nama	               "Fruits Basket: The Final" ;
              d:status              "Currently Airing";
              d:genre               "Slice of Life, Comedy, Supernatural, Drama, Romance, Shoujo";
              d:image                "https://cdn.myanimelist.net/images/anime/1085/114792l.webp";
-             d:episodeChapter       13.
+             d:episodeChapter       13;
+             d:score                "8.92".
 
 d:P20        d:nama	               "Gintama.: Silver Soul Arc - Second Half War" ;
              d:jenis       	       "Anime" ;
@@ -199,7 +218,8 @@ d:P20        d:nama	               "Gintama.: Silver Soul Arc - Second Half War"
              d:status              "Finished";
              d:genre               "Action, Sci-Fi, Comedy, Historical, Parody, Samurai, Shounen";
              d:image                "https://cdn.myanimelist.net/images/anime/1329/96683l.webp";
-             d:episodeChapter       14.
+             d:episodeChapter       14;
+             d:score                "8.87".
 
 d:P21        d:nama	               "Haikyu!! 3rd Season" ;
              d:jenis       	       "Anime" ;
@@ -209,7 +229,8 @@ d:P21        d:nama	               "Haikyu!! 3rd Season" ;
              d:status              "Finished";
              d:genre               "Comedy, Sports, Drama, School, Shounen";
              d:image                "https://cdn.myanimelist.net/images/anime/1329/96683l.webp";
-             d:episodeChapter       10.
+             d:episodeChapter       10;
+             d:score                "8.83".
 
 d:P22        d:nama	               "Mob Psycho 100 II" ;
              d:jenis       	       "Anime" ;
@@ -219,7 +240,8 @@ d:P22        d:nama	               "Mob Psycho 100 II" ;
              d:status              "Finished";
              d:genre               "Action, Slice of Life, Comedy, Supernatural";
              d:image                "https://cdn.myanimelist.net/images/anime/1918/96303l.webp";
-             d:episodeChapter       13.
+             d:episodeChapter       13;
+             d:score                "8.83".
 
 d:P23        d:nama	               "Fate/stay night: Heaven's Feel - III. Spring Song" ;
              d:jenis       	       "Anime" ;
@@ -229,7 +251,8 @@ d:P23        d:nama	               "Fate/stay night: Heaven's Feel - III. Spring
              d:status              "Finished";
              d:genre               "Action, Supernatural, Magic, Fantasy";
              d:image                "https://cdn.myanimelist.net/images/anime/1465/113810l.webp";
-             d:episodeChapter       1.
+             d:episodeChapter       1;
+             d:score                "8.81".
 
 d:P24        d:nama	               "Gintama.: Silver Soul Arc" ;
              d:jenis       	       "Anime" ;
@@ -239,7 +262,8 @@ d:P24        d:nama	               "Gintama.: Silver Soul Arc" ;
              d:status              "Finished";
              d:genre               "Action, Comedy, Historical, Parody, Samurai, Sci-Fi, Shounen";
              d:image                "https://cdn.myanimelist.net/images/anime/12/89603l.webp";
-             d:episodeChapter       12.
+             d:episodeChapter       12;
+             d:score                "8.81".
 
 d:P25        d:nama	               "Kizumonogatari III: Reiketsu-hen" ;
              d:jenis       	       "Anime" ;
@@ -249,7 +273,8 @@ d:P25        d:nama	               "Kizumonogatari III: Reiketsu-hen" ;
              d:status              "Finished";
              d:genre               "Action, Mystery, Supernatural, Vampire";
              d:image                "https://cdn.myanimelist.net/images/anime/1815/108761l.webp";
-             d:episodeChapter       1.
+             d:episodeChapter       1;
+             d:score                "8.81".
 
 d:P26        d:nama	               "Monogatari Series: First Season" ;
              d:jenis       	       "Light Novel" ;
@@ -259,7 +284,8 @@ d:P26        d:nama	               "Monogatari Series: First Season" ;
              d:status              "Finished";
              d:genre               "Action, Comedy, Mystery, Romance, Vampire, Supernatural";
              d:image                "https://cdn.myanimelist.net/images/manga/5/173535l.webp";
-             d:episodeChapter       107.
+             d:episodeChapter       107;
+             d:score                "8.96".
 
 d:P27        d:nama	               "Monogatari Series: Second Season" ;
              d:jenis       	       "Light Novel" ;
@@ -269,7 +295,8 @@ d:P27        d:nama	               "Monogatari Series: Second Season" ;
              d:status              "Finished";
              d:genre               "Comedy, Mystery, Drama, Vampire, Supernatural";
              d:image                "https://cdn.myanimelist.net/images/manga/2/181553l.webp";
-             d:episodeChapter       199.
+             d:episodeChapter       199;
+             d:score                "8.89".
 
 d:P28        d:nama	               "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e: 2-nensei-hen" ;
              d:jenis       	       "Light Novel" ;
@@ -279,7 +306,8 @@ d:P28        d:nama	               "Youkoso Jitsuryoku Shijou Shugi no Kyoushits
              d:status              "Publishing";
              d:genre               "Drama, School, Psychological";
              d:image                "https://cdn.myanimelist.net/images/manga/3/235363l.webp";
-             d:episodeChapter       0.
+             d:episodeChapter       0;
+             d:score                "8.89".
 
 d:P29        d:nama	               "Ookami to Koushinryou" ;
              d:jenis       	       "Light Novel" ;
@@ -289,7 +317,8 @@ d:P29        d:nama	               "Ookami to Koushinryou" ;
              d:status              "Publishing";
              d:genre               "Adventure, Drama, Fantasy, Historical, Romance, Supernatural";
              d:image                "https://cdn.myanimelist.net/images/manga/2/153860l.webp";
-             d:episodeChapter       106.
+             d:episodeChapter       106;
+             d:score                "8.86".
 
 d:P30        d:nama	               "Yahari Ore no Seishun Love Comedy wa Machigatteiru." ;
              d:jenis       	       "Light Novel" ;
@@ -299,7 +328,8 @@ d:P30        d:nama	               "Yahari Ore no Seishun Love Comedy wa Machiga
              d:status              "Finished";
              d:genre               "Comedy, Romance, School";
              d:image                "https://cdn.myanimelist.net/images/manga/3/80937l.webp";
-             d:episodeChapter       168.
+             d:episodeChapter       168;
+             d:score                "8.85".
 
 d:P31        d:nama	               "Monogatari Series: Final Season" ;
              d:jenis       	       "Light Novel" ;
@@ -309,7 +339,8 @@ d:P31        d:nama	               "Monogatari Series: Final Season" ;
              d:status              "Finished";
              d:genre               "Comedy, Mystery, Vampire, Supernatural";
              d:image                "https://cdn.myanimelist.net/images/manga/1/181554l.webp";
-             d:episodeChapter       231.
+             d:episodeChapter       231;
+             d:score                "8.81".
 
 d:P32        d:nama	               "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e" ;
              d:jenis       	       "Light Novel" ;
@@ -319,7 +350,8 @@ d:P32        d:nama	               "Youkoso Jitsuryoku Shijou Shugi no Kyoushits
              d:status              "Finished";
              d:genre               "Drama, School, Psychological";
              d:image                "https://cdn.myanimelist.net/images/manga/2/177958l.webp";
-             d:episodeChapter       110.
+             d:episodeChapter       110;
+             d:score                "8.81".
 
 d:P33        d:nama	               "Utsuro no Hako to Zero no Maria" ;
              d:jenis       	       "Light Novel" ;
@@ -329,7 +361,8 @@ d:P33        d:nama	               "Utsuro no Hako to Zero no Maria" ;
              d:status              "Finished";
              d:genre               "Action, Mystery, Drama, Horror, Romance, School, Supernatural, Psychological, Thriller";
              d:image                "https://cdn.myanimelist.net/images/manga/2/175662l.webp";
-             d:episodeChapter       40.
+             d:episodeChapter       40;
+             d:score                "8.80".
 
 d:P34        d:nama	               "Re:Zero kara Hajimeru Isekai Seikatsu" ;
              d:jenis       	       "Light Novel" ;
@@ -339,7 +372,8 @@ d:P34        d:nama	               "Re:Zero kara Hajimeru Isekai Seikatsu" ;
              d:status              "Publishing";
              d:genre               "Drama, Fantasy";
              d:image                "https://cdn.myanimelist.net/images/manga/1/129447l.webp";
-             d:episodeChapter       280.             
+             d:episodeChapter       280;
+             d:score                "8.76".          
 
 d:P35        d:nama	               "Shinyaku Toaru Majutsu no Index" ;
              d:jenis       	       "Light Novel" ;
@@ -349,4 +383,5 @@ d:P35        d:nama	               "Shinyaku Toaru Majutsu no Index" ;
              d:status              "Finished";
              d:genre               "Action, Comedy, Fantasy, Magic, Sci-Fi, Super Power, Supernatural";
              d:image                "https://cdn.myanimelist.net/images/manga/2/221675l.webp";
-             d:episodeChapter       178.
+             d:episodeChapter       178;
+             d:score                "8.68".

@@ -40,13 +40,13 @@
               <v-col cols="12">
                 
                   <v-row>
-                <v-col cols="4">
+                <v-col cols="3">
                 <h3>Search Anime / Novel by Genre</h3>
                   <v-autocomplete label="Search by Genre" placeholder="Select Genre" :items="genre"
                     v-model="selected_genre" item-text="name" item-value="name" @change="getAnime(selected_genre)">
                   </v-autocomplete>
                 </v-col>
-                <v-col cols="4">
+                <v-col cols="3">
                 <h3>Sort by Name</h3>
                 <v-radio-group
      
@@ -65,7 +65,7 @@
       ></v-radio>
     </v-radio-group>
     </v-col>
-    <v-col cols="4">
+    <v-col cols="3">
                 <h3>Sort by Episodes / Chapters</h3>
                 <v-radio-group
       
@@ -81,6 +81,25 @@
         label="Descending"
         value="desc"
         @click="sortType = 'desc'"
+      ></v-radio>
+    </v-radio-group>
+    </v-col>
+    <v-col cols="3">
+                <h3>Sort by Score</h3>
+                <v-radio-group
+      
+      row
+      @change="sortedItem = 'Score'"
+    >
+      <v-radio
+        label="Highest"
+        value="asc"
+        @click="sortType = 'desc'"
+      ></v-radio>
+      <v-radio
+        label="Lowest"
+        value="desc"
+        @click="sortType = 'asc'"
       ></v-radio>
     </v-radio-group>
     </v-col>
@@ -158,6 +177,13 @@
                               </v-card-title>
                               <v-card-text>
                                 {{item.JumlahEps}}
+                              </v-card-text>
+                              <v-divider></v-divider>
+                              <v-card-title>
+                                Score (Myanimelist)
+                              </v-card-title>
+                              <v-card-text>
+                                {{item.Score}}
                               </v-card-text>
                             </div>
                           </v-expand-transition>
@@ -321,7 +347,7 @@
       }],
       selected_genre: '',
       genre: [{
-          name: "Clear"
+          name: "Refresh"
         },
         {
           name : "Shounen"
@@ -392,7 +418,7 @@
     },
     methods: {
       getAnime(value) {
-        if (value != "Clear") {
+        if (value != "Refresh") {
           axios.post('process.php', {
             data: value
           }).then(response => {
@@ -426,7 +452,7 @@
     computed: {
       filteredList: function () {
         return Object.values(this.anime_data).sort((p1,p2) => {
-                    if(this.sortedItem != 'JumlahEps'){
+                    if(this.sortedItem != 'JumlahEps' || this.sortedItem != 'Score'){
                     let modifier = 1;
                     if(this.sortType === 'desc') modifier = -1;
                     if(p1[this.sortedItem] < p2[this.sortedItem]) return -1 * modifier; if(p1[this.sortedItem] > p2[this.sortedItem]) return 1 * modifier;
@@ -434,7 +460,7 @@
                   }else {
                     let modifier = 1;
                     if(this.sortType === 'desc') modifier = -1;
-                    if(parseInt(p1[this.sortedItem]) < parseInt(p2[this.sortedItem])) return -1 * modifier; if(parseInt(p1[this.sortedItem]) > parseInt(p2[this.sortedItem])) return 1 * modifier;
+                    if(parseFloat(p1[this.sortedItem]) < parseFloat(p2[this.sortedItem])) return -1 * modifier; if(parseFloat(p1[this.sortedItem]) > parseFloat(p2[this.sortedItem])) return 1 * modifier;
                     return 0;
                   }
                 }).slice(0, this.listToShow)
