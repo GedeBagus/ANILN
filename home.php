@@ -11,12 +11,13 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
-  
+
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
   <title>ANILN</title>
 </head>
 
 <body>
+
   <head>
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light ">
@@ -39,42 +40,42 @@
       "http://localhost:3030/aniln",
       "
       PREFIX p: <http://Aniln.com>
-PREFIX d: <http://Aniln.com/ns/data#>
+      PREFIX d: <http://Aniln.com/ns/data#>
 
-SELECT ?Nama ?Tipe ?Sinopsis ?Rilis ?Penerbit ?Status ?JumlahEps
-WHERE
-{ 
-    ?s  d:nama ?Nama;
-        d:jenis ?Tipe;
-        d:sinopsis ?Sinopsis;
-        d:airedPublished ?Rilis;
-        d:studiosAuthor ?Penerbit;
-        d:status ?Status;
-        d:episodeChapter ?JumlahEps;
-        FILTER (regex(?Nama, '$test') || regex(?Tipe, '$test') || regex(?Status,  '$test') )
+      SELECT ?Nama ?Tipe ?Sinopsis ?Rilis ?Penerbit ?Status ?JumlahEps
+      WHERE
+      { 
+          ?s  d:nama ?Nama;
+              d:jenis ?Tipe;
+              d:sinopsis ?Sinopsis;
+              d:airedPublished ?Rilis;
+              d:studiosAuthor ?Penerbit;
+              d:status ?Status;
+              d:episodeChapter ?JumlahEps;
+              FILTER (regex(?Nama, '$test') || regex(?Tipe, '$test') || regex(?Status,  '$test') )
 
-}
-            "
+      }
+                  "
     );
   } else {
     $data = sparql_get(
       "http://localhost:3030/aniln",
       "
       PREFIX p: <http://Aniln.com>
-PREFIX d: <http://Aniln.com/ns/data#>
+      PREFIX d: <http://Aniln.com/ns/data#>
 
-SELECT ?Nama ?Tipe ?Sinopsis ?Rilis ?Penerbit ?Status ?JumlahEps
-WHERE
-{ 
-    ?s  d:nama ?Nama;
-        d:jenis ?Tipe;
-        d:sinopsis ?Sinopsis;
-        d:airedPublished ?Rilis;
-        d:studiosAuthor ?Penerbit;
-        d:status ?Status;
-        d:episodeChapter ?JumlahEps
-}
-            "
+      SELECT ?Nama ?Tipe ?Sinopsis ?Rilis ?Penerbit ?Status ?JumlahEps
+      WHERE
+      { 
+          ?s  d:nama ?Nama;
+              d:jenis ?Tipe;
+              d:sinopsis ?Sinopsis;
+              d:airedPublished ?Rilis;
+              d:studiosAuthor ?Penerbit;
+              d:status ?Status;
+              d:episodeChapter ?JumlahEps
+      }
+                  "
     );
   }
 
@@ -87,100 +88,100 @@ WHERE
   //         var_dump($search);
   ?>
 
-<div id="App">
-  <div class="jumbotron jumbotron warna-bg">
-  </div>
-<button>{{}}</button>
-  <div class="main">
-    <div class="container">
-      <div class="shadow mb-5 bg-white rounded layout">
-        <div class="form-group has-search">
-          <form action="" method="post" id="nameform">
-            <div class="input-group">
-              <span class="fa fa-search fa-1x form-control-feedback"></span>
-              <input type="text" name="search-aniln" class="form-control form-control-lg " placeholder="Search Anime or Light Novel">
-              <div class="input-group-append">
-                <button class="btn btn-secondary" type="submit"> Search
-                </button>
+  <div id="App">
+    <div class="jumbotron jumbotron warna-bg">
+    </div>
+    <button>{{}}</button>
+    <div class="main">
+      <div class="container">
+        <div class="shadow mb-5 bg-white rounded layout">
+          <div class="form-group has-search">
+            <form action="" method="post" id="nameform">
+              <div class="input-group">
+                <span class="fa fa-search fa-1x form-control-feedback"></span>
+                <input type="text" name="search-aniln" class="form-control form-control-lg " placeholder="Search Anime or Light Novel">
+                <div class="input-group-append">
+                  <button class="btn btn-secondary" type="submit"> Search
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="konten">
+      <div class="container">
+        <h3>Search Result</h3>
+        <p>Search: <span>
+            <?php
+            if ($test != NULL) {
+              echo $test;
+            } else {
+              echo "Search Keyword";
+            }
+            ?></span></p>
+        <hr>
+        <div class="row">
+          <?php foreach ($data as $dat) : ?>
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-body">
+                  <div class="card-title">
+                    <div class="header-data"> <b>Name : </b></div>
+                    <div class="item-data" id="nama-db"><b><?= $dat['Nama'] ?></b></div>
+                    <div class="accordion" id="accordionExample">
+                      <div class="card">
+                        <div class="card-header" id="headingOne">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Sinopsis
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <?= $dat['Sinopsis'] ?>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                  </div>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <div class="header-data"> <b>Anime or Light Novel :</b>
+                      <div class="item-data"><?= $dat['Tipe'] ?></div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="header-data"> <b>Status :</b></div>
+                    <div class="item-data"><?= $dat['Status'] ?></div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="header-data"> <b>Release Date :</b></div>
+                    <div class="item-data"><?= $dat['Rilis'] ?></div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="header-data"> <b>Studios or Author :</b></div>
+                    <div class="item-data"><?= $dat['Penerbit'] ?></div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="header-data"> <b>Episode or Chapters :</b></div>
+                    <div class="item-data"><?= $dat['JumlahEps'] ?></div>
+                  </li>
+                </ul>
               </div>
             </div>
-          </form>
+          <?php endforeach; ?>
         </div>
       </div>
     </div>
   </div>
-
-  <div class="konten">
-    <div class="container">
-      <h3>Search Result</h3>
-      <p>Search: <span>
-          <?php
-          if ($test != NULL) {
-            echo $test;
-          } else {
-            echo "Search Keyword";
-          }
-          ?></span></p>
-      <hr>
-      <div class="row">
-        <?php foreach ($data as $dat) : ?>
-          <div class="col-lg-6">
-            <div class="card">
-              <div class="card-body">
-                <div class="card-title">
-                  <div class="header-data"> <b>Name : </b></div>
-                  <div class="item-data" id="nama-db"><b><?= $dat['Nama'] ?></b></div>
-                  <div class="accordion" id="accordionExample">
-                    <div class="card">
-                      <div class="card-header" id="headingOne">
-                        <h2 class="mb-0">
-                          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Sinopsis
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                        <div class="card-body">
-                          <?= $dat['Sinopsis'] ?>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <hr>
-                </div>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                  <div class="header-data"> <b>Anime or Light Novel :</b>
-                    <div class="item-data"><?= $dat['Tipe'] ?></div>
-                  </div>
-                </li>
-                <li class="list-group-item">
-                  <div class="header-data"> <b>Status :</b></div>
-                  <div class="item-data"><?= $dat['Status'] ?></div>
-                </li>
-                <li class="list-group-item">
-                  <div class="header-data"> <b>Release Date :</b></div>
-                  <div class="item-data"><?= $dat['Rilis'] ?></div>
-                </li>
-                <li class="list-group-item">
-                  <div class="header-data"> <b>Studios or Author :</b></div>
-                  <div class="item-data"><?= $dat['Penerbit'] ?></div>
-                </li>
-                <li class="list-group-item">
-                  <div class="header-data"> <b>Episode or Chapters :</b></div>
-                  <div class="item-data"><?= $dat['JumlahEps'] ?></div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        <?php endforeach; ?>
-      </div>
-    </div>
-  </div>
-  </div>
   <footer>&copy; ANILN Otaku</footer>
-  
+
 </body>
 <style>
   body {
@@ -254,21 +255,20 @@ WHERE
   }
 </style>
 <script>
+  var application = new Vue({
+    el: '#App',
+    data: {
+      query: '',
+      nodata: false
+    },
+    methods: {
 
-var application = new Vue({
-	el:'#App',
-	data:{
-		query:'',
-		nodata:false
-	},
-	methods: {
-		
-	},
-	created(){
-	
-	}
-});
+    },
+    created() {
 
+    }
+  });
 </script>
 </body>
+
 </html>
