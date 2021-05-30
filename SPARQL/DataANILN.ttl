@@ -7,6 +7,7 @@ d:P01        d:nama	               "Fullmetal Alchemist: Brotherhood" ;
              d:airedPublished      "Apr 5, 2009 to Jul 4, 2010" ;
              d:studiosAuthor       "Bones" ;
              d:status              "Finished";
+             d:genre               "Action, Military, Adventure, Comedy, Drama, Magic, Fantasy, Shounen";
              d:episodeChapter       64.
 
 d:P02        d:nama	               "Shingeki no Kyojin Season 3 Part 2" ;
@@ -15,6 +16,7 @@ d:P02        d:nama	               "Shingeki no Kyojin Season 3 Part 2" ;
              d:airedPublished      "Apr 29, 2019 to Jul 1, 2019" ;
              d:studiosAuthor       "Wit Studio" ;
              d:status              "Finished";
+             d:genre               "Action, Drama, Fantasy, Military, Mystery, Shounen, Super Power";
              d:episodeChapter       10.
 
 d:P03        d:nama	               "Steins;Gate" ;
@@ -23,6 +25,7 @@ d:P03        d:nama	               "Steins;Gate" ;
              d:airedPublished      "Apr 6, 2011 to Sep 14, 2011" ;
              d:studiosAuthor       "White Fox" ;
              d:status              "Finished";
+             d:genre               "Sci-Fi, Psychological, Drama, Thriller";
              d:episodeChapter       24.
 
 d:P04        d:nama	               "Gintama Season 4" ;
@@ -31,6 +34,7 @@ d:P04        d:nama	               "Gintama Season 4" ;
              d:airedPublished      "Apr 8, 2015 to Mar 30, 2016" ;
              d:studiosAuthor       "Bandai Namco Pictures" ;
              d:status              "Finished";
+             d:genre               "Action, Comedy, Historical, Parody, Samurai, Sci-Fi, Shounen";
              d:episodeChapter       51.
 
 d:P05        d:nama	               "Hunter x Hunter" ;
@@ -39,6 +43,7 @@ d:P05        d:nama	               "Hunter x Hunter" ;
              d:airedPublished      "Oct 2, 2011 to Sep 24, 2014" ;
              d:studiosAuthor       "Madhouse" ;
              d:status              "Finished";
+             d:genre               "Action, Adventure, Fantasy, Shounen, Super Power";
              d:episodeChapter       148.
 
 d:P06        d:nama	               "Ginga Eiyuu Densetsu" ;
@@ -47,6 +52,7 @@ d:P06        d:nama	               "Ginga Eiyuu Densetsu" ;
              d:airedPublished      "Jan 8, 1988 to Mar 17, 1997" ;
              d:studiosAuthor       "Artland, Magic Bus" ;
              d:status              "Finished";
+             d:genre               "Military, Sci-Fi, Space, Drama";
              d:episodeChapter       110.
 
 d:P07        d:nama	               "Gintama Season 2" ;
@@ -55,6 +61,7 @@ d:P07        d:nama	               "Gintama Season 2" ;
              d:airedPublished      "Apr 4, 2011 to Mar 26, 2012" ;
              d:studiosAuthor       "Sunrise" ;
              d:status              "Finished";
+             d:genre               "Action, Sci-Fi, Comedy, Historical, Parody, Samurai, Shounen";
              d:episodeChapter       51.
 
 d:P08        d:nama	               "Gintama: Enchousen" ;
@@ -63,6 +70,7 @@ d:P08        d:nama	               "Gintama: Enchousen" ;
              d:airedPublished      "Oct 4, 2012 to Mar 28, 2013" ;
              d:studiosAuthor       "Sunrise" ;
              d:status              "Finished";
+             d:genre               "Action, Comedy, Historical, Parody, Samurai, Sci-Fi, Shounen";
              d:episodeChapter       13.
 
 d:P09        d:nama	               "Shingeki no Kyojin: The Final Season" ;
@@ -71,6 +79,7 @@ d:P09        d:nama	               "Shingeki no Kyojin: The Final Season" ;
              d:airedPublished      "Dec 7, 2020 to Mar 29, 2021" ;
              d:studiosAuthor       "MAPPA" ;
              d:status              "Finished";
+             d:genre               "Action, Military, Mystery, Super Power, Drama, Fantasy, Shounen";
              d:episodeChapter       16.
 
 d:P10        d:nama	               "3-gatsu no Lion 2nd Season" ;
@@ -79,6 +88,7 @@ d:P10        d:nama	               "3-gatsu no Lion 2nd Season" ;
              d:airedPublished      "Oct 14, 2017 to Mar 31, 2018" ;
              d:studiosAuthor       "Shaft" ;
              d:status              "Finished";
+             d:genre               "Drama, Game, Seinen, Slice of Life";
              d:episodeChapter       22.
 
 d:P11        d:nama	               "Gintama Season 5" ;
@@ -87,14 +97,16 @@ d:P11        d:nama	               "Gintama Season 5" ;
              d:airedPublished      "Jan 9, 2017 to Mar 27, 2017" ;
              d:studiosAuthor       "Bandai Namco Pictures" ;
              d:status              "Finished";
+             d:genre               "Action, Comedy, Historical, Parody, Samurai, Sci-Fi, Shounen";
              d:episodeChapter       12.
 
-d:P12        d:nama	               "Koe no Katachi" ;
+d:P12        d:nama	               "Koe no Katachi / A Silent Voice" ;
              d:jenis       	       "Anime" ;
              d:sinopsis            "As a wild youth, elementary school student Shouya Ishida sought to beat boredom in the cruelest ways. When the deaf Shouko Nishimiya transfers into his class, Shouya and the rest of his class thoughtlessly bully her for fun. However, when her mother notifies the school, he is singled out and blamed for everything done to her. With Shouko transferring out of the school, Shouya is left at the mercy of his classmates. He is heartlessly ostracized all throughout elementary and middle school, while teachers turn a blind eye." ;
              d:airedPublished      "Sep 17, 2016" ;
              d:studiosAuthor       "Kyoto Animation" ;
              d:status              "Finished";
+             d:genre               "Drama, School, Shounen";
              d:episodeChapter       1.
 
 d:P13        d:nama	               "Clannad: After Story" ;
@@ -103,6 +115,7 @@ d:P13        d:nama	               "Clannad: After Story" ;
              d:airedPublished      "Oct 3, 2008 to Mar 27, 2009" ;
              d:studiosAuthor       "Kyoto Animation" ;
              d:status              "Finished";
+             d:genre               "Slice of Life, Comedy, Supernatural, Drama, Romance";
              d:episodeChapter       24.
 
 d:P14        d:nama	               "Gintama" ;
@@ -111,6 +124,7 @@ d:P14        d:nama	               "Gintama" ;
              d:airedPublished      "Apr 4, 2006 to Mar 25, 2010" ;
              d:studiosAuthor       "Sunrise" ;
              d:status              "Finished";
+             d:genre               "Action, Comedy, Historical, Parody, Samurai, Sci-Fi, Shounen";
              d:episodeChapter       201.
 
 d:P15        d:nama	               "Gintama Movie 2: Kanketsu-hen - Yorozuya yo Eien Nare" ;
@@ -119,6 +133,7 @@ d:P15        d:nama	               "Gintama Movie 2: Kanketsu-hen - Yorozuya yo 
              d:airedPublished      "Jul 6, 2013" ;
              d:studiosAuthor       "Sunrise" ;
              d:status              "Finished";
+             d:genre               "Action, Sci-Fi, Comedy, Historical, Parody, Samurai, Shounen";
              d:episodeChapter       1.
 
 d:P16        d:nama	               "Kimi no Na wa" ;
@@ -127,6 +142,7 @@ d:P16        d:nama	               "Kimi no Na wa" ;
              d:airedPublished      "Aug 26, 2016" ;
              d:studiosAuthor       "BoCoMix Wave Filmsnes" ;
              d:status              "Finished";
+             d:genre               "Romance, Supernatural, School, Drama";
              d:episodeChapter       1.
 
 d:P17        d:nama	               "Owarimonogatari 2nd Season" ;
@@ -135,6 +151,7 @@ d:P17        d:nama	               "Owarimonogatari 2nd Season" ;
              d:airedPublished      "Aug 12, 2017 to Aug 13, 2017" ;
              d:studiosAuthor       "Shaft" ;
              d:status              "Finished";
+             d:genre               "Mystery, Comedy, Supernatural, Vampire";
              d:episodeChapter       7.
 
 d:P18        d:nama	               "Code Geass: Hangyaku no Lelouch R2" ;
@@ -143,6 +160,7 @@ d:P18        d:nama	               "Code Geass: Hangyaku no Lelouch R2" ;
              d:airedPublished      "Apr 6, 2008 to Sep 28, 2008" ;
              d:studiosAuthor       "Sunrise" ;
              d:status              "Finished";
+             d:genre               "Action, Military, Sci-Fi, Super Power, Drama, Mecha";
              d:episodeChapter       25.
 
 d:P19        d:nama	               "Fruits Basket: The Final" ;
@@ -151,7 +169,8 @@ d:P19        d:nama	               "Fruits Basket: The Final" ;
              d:airedPublished      "Apr 6, 2021 to ?" ;
              d:studiosAuthor       "TMS Entertainment" ;
              d:status              "Currently Airing";
-             d:episodeChapter       0.
+             d:genre               "Slice of Life, Comedy, Supernatural, Drama, Romance, Shoujo";
+             d:episodeChapter       13.
 
 d:P20        d:nama	               "Gintama.: Silver Soul Arc - Second Half War" ;
              d:jenis       	       "Anime" ;
@@ -159,6 +178,7 @@ d:P20        d:nama	               "Gintama.: Silver Soul Arc - Second Half War"
              d:airedPublished      "Jul 9, 2018 to Oct 8, 2018" ;
              d:studiosAuthor       "Bandai Namco Pictures" ;
              d:status              "Finished";
+             d:genre               "Action, Sci-Fi, Comedy, Historical, Parody, Samurai, Shounen";
              d:episodeChapter       14.
 
 d:P21        d:nama	               "Haikyu!! 3rd Season" ;
@@ -167,6 +187,7 @@ d:P21        d:nama	               "Haikyu!! 3rd Season" ;
              d:airedPublished      "Oct 8, 2016 to Dec 10, 2016" ;
              d:studiosAuthor       "Production I.G" ;
              d:status              "Finished";
+             d:genre               "Comedy, Sports, Drama, School, Shounen";
              d:episodeChapter       10.
 
 d:P22        d:nama	               "Mob Psycho 100 II" ;
@@ -175,6 +196,7 @@ d:P22        d:nama	               "Mob Psycho 100 II" ;
              d:airedPublished      "Jan 7, 2019 to Apr 1, 2019" ;
              d:studiosAuthor       "Bones" ;
              d:status              "Finished";
+             d:genre               "Action, Slice of Life, Comedy, Supernatural";
              d:episodeChapter       13.
 
 d:P23        d:nama	               "Fate/stay night: Heaven's Feel - III. Spring Song" ;
@@ -183,6 +205,7 @@ d:P23        d:nama	               "Fate/stay night: Heaven's Feel - III. Spring
              d:airedPublished      "Aug 15, 2020" ;
              d:studiosAuthor       "ufotable" ;
              d:status              "Finished";
+             d:genre               "Action, Supernatural, Magic, Fantasy";
              d:episodeChapter       1.
 
 d:P24        d:nama	               "Gintama.: Silver Soul Arc" ;
@@ -191,6 +214,7 @@ d:P24        d:nama	               "Gintama.: Silver Soul Arc" ;
              d:airedPublished      "Jan 8, 2018 to Mar 26, 2018" ;
              d:studiosAuthor       "Bandai Namco Pictures" ;
              d:status              "Finished";
+             d:genre               "Action, Comedy, Historical, Parody, Samurai, Sci-Fi, Shounen";
              d:episodeChapter       12.
 
 d:P25        d:nama	               "Kizumonogatari III: Reiketsu-hen" ;
@@ -199,6 +223,7 @@ d:P25        d:nama	               "Kizumonogatari III: Reiketsu-hen" ;
              d:airedPublished      "Jan 6, 2017" ;
              d:studiosAuthor       "Shaft" ;
              d:status              "Finished";
+             d:genre               "Action, Mystery, Supernatural, Vampire";
              d:episodeChapter       1.
 
 d:P26        d:nama	               "Monogatari Series: First Season" ;
@@ -207,6 +232,7 @@ d:P26        d:nama	               "Monogatari Series: First Season" ;
              d:airedPublished      "Nov 1, 2006 to Jul 28, 2010" ;
              d:studiosAuthor       "NISIO, ISIN (Story), VOFAN (Art)" ;
              d:status              "Finished";
+             d:genre               "Action, Comedy, Mystery, Romance, Vampire, Supernatural";
              d:episodeChapter       107.
 
 d:P27        d:nama	               "Monogatari Series: Second Season" ;
@@ -215,6 +241,7 @@ d:P27        d:nama	               "Monogatari Series: Second Season" ;
              d:airedPublished      "Oct 27, 2010 to Dec 20, 2011" ;
              d:studiosAuthor       "NISIO, ISIN (Story), VOFAN (Art)" ;
              d:status              "Finished";
+             d:genre               "Comedy, Mystery, Drama, Vampire, Supernatural";
              d:episodeChapter       199.
 
 d:P28        d:nama	               "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e: 2-nensei-hen" ;
@@ -223,6 +250,7 @@ d:P28        d:nama	               "Youkoso Jitsuryoku Shijou Shugi no Kyoushits
              d:airedPublished      "Jan 24, 2020 to ?" ;
              d:studiosAuthor       "Tomose, Shunsaku (Art), Kinugasa, Shougo (Story)" ;
              d:status              "Publishing";
+             d:genre               "Drama, School, Psychological";
              d:episodeChapter       0.
 
 d:P29        d:nama	               "Ookami to Koushinryou" ;
@@ -231,6 +259,7 @@ d:P29        d:nama	               "Ookami to Koushinryou" ;
              d:airedPublished      "Feb 10, 2006 to ?" ;
              d:studiosAuthor       "Hasekura, Isuna (Story), Ayakura, Juu (Art)" ;
              d:status              "Publishing";
+             d:genre               "Adventure, Drama, Fantasy, Historical, Romance, Supernatural";
              d:episodeChapter       106.
 
 d:P30        d:nama	               "Yahari Ore no Seishun Love Comedy wa Machigatteiru." ;
@@ -239,6 +268,7 @@ d:P30        d:nama	               "Yahari Ore no Seishun Love Comedy wa Machiga
              d:airedPublished      "Mar 18, 2011 to Apr 20, 2021" ;
              d:studiosAuthor       "Watari, Wataru (Story), Ponkan⑧ (Art)" ;
              d:status              "Finished";
+             d:genre               "Comedy, Romance, School";
              d:episodeChapter       168.
 
 d:P31        d:nama	               "Monogatari Series: Final Season" ;
@@ -247,6 +277,7 @@ d:P31        d:nama	               "Monogatari Series: Final Season" ;
              d:airedPublished      "Sep 28, 2012 to Sep 18, 2014" ;
              d:studiosAuthor       "NISIO, ISIN (Story), VOFAN (Art)" ;
              d:status              "Finished";
+             d:genre               "Comedy, Mystery, Vampire, Supernatural";
              d:episodeChapter       231.
 
 d:P32        d:nama	               "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e" ;
@@ -255,6 +286,7 @@ d:P32        d:nama	               "Youkoso Jitsuryoku Shijou Shugi no Kyoushits
              d:airedPublished      "May 25, 2015 to Sep 25, 2019" ;
              d:studiosAuthor       "Tomose, Shunsaku (Art), Kinugasa, Shougo (Story)" ;
              d:status              "Finished";
+             d:genre               "Drama, School, Psychological";
              d:episodeChapter       110.
 
 d:P33        d:nama	               "Utsuro no Hako to Zero no Maria" ;
@@ -263,6 +295,7 @@ d:P33        d:nama	               "Utsuro no Hako to Zero no Maria" ;
              d:airedPublished      "Jan 10, 2009 to Jun 10, 2015" ;
              d:studiosAuthor       "Mikage, Eiji (Story), Tetsuo (Art)" ;
              d:status              "Finished";
+             d:genre               "Action, Mystery, Drama, Horror, Romance, School, Supernatural, Psychological, Thriller";
              d:episodeChapter       40.
 
 d:P34        d:nama	               "Re:Zero kara Hajimeru Isekai Seikatsu" ;
@@ -271,6 +304,7 @@ d:P34        d:nama	               "Re:Zero kara Hajimeru Isekai Seikatsu" ;
              d:airedPublished      "Jan 23, 2014 to ?" ;
              d:studiosAuthor       "Nagatsuki, Tappei (Story), Ootsuka, Shinichirou (Art)" ;
              d:status              "Publishing";
+             d:genre               "Drama, Fantasy";
              d:episodeChapter       280.             
 
 d:P35        d:nama	               "Shinyaku Toaru Majutsu no Index" ;
@@ -279,4 +313,5 @@ d:P35        d:nama	               "Shinyaku Toaru Majutsu no Index" ;
              d:airedPublished      "Mar 10, 2011 to Jul 10, 2019" ;
              d:studiosAuthor       "Kamachi, Kazuma (Story), Haimura, Kiyotaka (Art)" ;
              d:status              "Finished";
+             d:genre               "Action, Fantasy, Game, Magic, Supernatural";
              d:episodeChapter       178.

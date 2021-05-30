@@ -8,11 +8,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
-  
-  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
   <title>ANILN</title>
 </head>
 
@@ -36,44 +31,45 @@
   if (isset($_POST['search-aniln'])) {
     $test = $_POST['search-aniln'];
     $data = sparql_get(
-      "http://localhost:3030/aniln",
+      "http://d7959fbc1278.ngrok.io/aniln",
       "
-      PREFIX p: <http://Aniln.com>
-PREFIX d: <http://Aniln.com/ns/data#>
-
-SELECT ?Nama ?Tipe ?Sinopsis ?Rilis ?Penerbit ?Status ?JumlahEps
-WHERE
-{ 
-    ?s  d:nama ?Nama;
-        d:jenis ?Tipe;
-        d:sinopsis ?Sinopsis;
-        d:airedPublished ?Rilis;
-        d:studiosAuthor ?Penerbit;
-        d:status ?Status;
-        d:episodeChapter ?JumlahEps;
-        FILTER (regex(?Nama, '$test') || regex(?Tipe, '$test') || regex(?Status,  '$test') )
-
-}
+        PREFIX p: <http://Aniln.com>
+        PREFIX d: <http://Aniln.com/ns/data#>
+        
+        SELECT ?Nama ?Tipe ?Sinopsis ?Rilis ?Penerbit ?Status ?JumlahEps
+        WHERE
+        { 
+            ?s  d:nama ?Nama;
+                d:jenis ?Tipe;
+                d:sinopsis ?Sinopsis;
+                d:airedPublished ?Rilis;
+                d:studiosAuthor ?Penerbit;
+                d:status ?Status;
+                d:genre ?Genre;
+                d:episodeChapter ?JumlahEps
+                FILTER ((regex(?Nama, '$test') || regex(?Tipe, '$test') || regex(?Status,  '$test') || regex(?Genre,  '$test'))
+        }
             "
     );
   } else {
     $data = sparql_get(
-      "http://localhost:3030/aniln",
+      "http://d7959fbc1278.ngrok.io/aniln",
       "
-      PREFIX p: <http://Aniln.com>
-PREFIX d: <http://Aniln.com/ns/data#>
-
-SELECT ?Nama ?Tipe ?Sinopsis ?Rilis ?Penerbit ?Status ?JumlahEps
-WHERE
-{ 
-    ?s  d:nama ?Nama;
-        d:jenis ?Tipe;
-        d:sinopsis ?Sinopsis;
-        d:airedPublished ?Rilis;
-        d:studiosAuthor ?Penerbit;
-        d:status ?Status;
-        d:episodeChapter ?JumlahEps
-}
+        PREFIX p: <http://Aniln.com>
+        PREFIX d: <http://Aniln.com/ns/data#>
+        
+        SELECT ?Nama ?Tipe ?Sinopsis ?Rilis ?Penerbit ?Status ?JumlahEps
+        WHERE
+        { 
+            ?s  d:nama ?Nama;
+                d:jenis ?Tipe;
+                d:sinopsis ?Sinopsis;
+                d:airedPublished ?Rilis;
+                d:studiosAuthor ?Penerbit;
+                d:status ?Status;
+                d:genre ?Genre;
+                d:episodeChapter ?JumlahEps
+        }
             "
     );
   }
@@ -87,10 +83,9 @@ WHERE
   //         var_dump($search);
   ?>
 
-<div id="App">
   <div class="jumbotron jumbotron warna-bg">
   </div>
-<button>{{}}</button>
+
   <div class="main">
     <div class="container">
       <div class="shadow mb-5 bg-white rounded layout">
@@ -178,9 +173,7 @@ WHERE
       </div>
     </div>
   </div>
-  </div>
   <footer>&copy; ANILN Otaku</footer>
-  
 </body>
 <style>
   body {
@@ -253,22 +246,5 @@ WHERE
     border-radius: 10px;
   }
 </style>
-<script>
-
-var application = new Vue({
-	el:'#App',
-	data:{
-		query:'',
-		nodata:false
-	},
-	methods: {
-		
-	},
-	created(){
-	
-	}
-});
-
-</script>
 </body>
 </html>
