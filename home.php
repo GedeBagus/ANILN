@@ -1,6 +1,4 @@
-<?php 
-require('vendor/autoload.php');
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,10 +13,10 @@ require('vendor/autoload.php');
 
 <body>
 
-  
 
   <div id="App">
     <v-app>
+    
     <v-tabs align-with-title>
           <v-tab>Home</v-tab>
     <v-tab-item>
@@ -48,10 +46,22 @@ require('vendor/autoload.php');
     </v-text-field>
     </form>
     </v-col>
+
       <v-col cols="12">
         <h3>Search Result</h3>
         <p>Search: <span>
            </span></p>
+           <v-col cols="4">    <v-autocomplete
+           label="Search by Genre"
+           placeholder="Select Genre"
+           :items="genre"
+           v-model="selected_genre"
+           item-text = "name"
+           item-value = "name"
+           @change="getAnime(selected_genre)"
+       >
+           </v-autocomplete></v-col>
+           
        <v-col cols="12">
          <v-row>
          <div v-for="(item,index) in anime_data" :key ="index">
@@ -71,9 +81,9 @@ class="white--text align--end"
       {{item.Nama}}
     </v-card-title>
 
-    <v-card-subtitle>
+    <v-card-title>
     {{item.Tipe}}
-    </v-card-subtitle>
+    </v-card-title>
     <v-card-subtitle>
     {{item.Genre}}
     </v-card-subtitle>
@@ -155,15 +165,7 @@ class="white--text align--end"
       </v-col>
       
     </v-row>
-    <v-btn
-          class="load_more"
-          text
-          large
-          @click="listToShow += 9"
-          block
-        >
-          Load More
-        </v-btn>
+
       </v-container>
           </v-tab-item>
           <v-tab>About Us</v-tab>
@@ -312,6 +314,23 @@ class="white--text align--end"
       reveal : [{
 
       }],
+      selected_genre : '',
+      genre : [
+        {name : "Clear"},
+        { name: "Action"},
+        { name: "Adventure"},
+        { name: "Comedy" },
+        { name: "Drama" },
+        { name: "Slice of Life"},
+        { name: "Magic" },
+        { name: "Sci-Fi"},
+        { name: "Supernatural"},
+        { name: "Romance"},
+        { name: "School"},
+        { name: "Fantasy"},
+        { name: "Romance"},
+        { name: "Super Power"}
+      ],
       listToShow : 8,
       input :'',
       anime_data : [],
@@ -319,6 +338,21 @@ class="white--text align--end"
       nodata: false
     },
     methods: {
+      getAnime(value){
+        if(value  != "Clear"){
+        axios.post('process.php',{
+          data : value
+        }).then(response =>{
+            this.anime_data = response.data
+        })
+        }else{
+          axios.get('process.php',{
+          data : this.input
+        }).then(response =>{
+            this.anime_data = response.data
+        })
+        }
+      },
       submit(){
         axios.post('process.php',{
           data : this.input

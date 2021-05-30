@@ -1,0 +1,13 @@
+PREFIX p: <http://Aniln.com>
+PREFIX d: <http://Aniln.com/ns/data#>
+
+d:P56        d:nama	               "Test" ;
+             d:jenis       	       "Light Novel" ;
+             d:sinopsis            "Test update" ;
+             d:airedPublished      "2021" ;
+             d:studiosAuthor       "fadol bagud" ;
+             d:status              "Finished";
+             d:genre               "test";
+             d:episodeChapter       1.
+
+

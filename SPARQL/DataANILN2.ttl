@@ -7,6 +7,7 @@ d:P36        d:nama	               "Overlord" ;
              d:airedPublished      "Jul 30, 2012 to ?" ;
              d:studiosAuthor       "Maruyama, Kugane (Story), so-bin (Art)" ;
              d:status              "Publishing";
+             d:genre               "Action, Fantasy, Game, Magic, Supernatural";
              d:episodeChapter       14.
 
 d:P37        d:nama	               "86—Eighty-Six" ;
@@ -15,6 +16,7 @@ d:P37        d:nama	               "86—Eighty-Six" ;
              d:airedPublished      "Feb 10, 2017 to ?" ;
              d:studiosAuthor       "Shirabi (Art), Asato, Asato (Story)" ;
              d:status              "Publishing";
+             d:genre               "Action, Drama, Sci-Fi, Military";
              d:episodeChapter       21.
 
 d:P38        d:nama	               "Zaregoto Series" ;
@@ -23,6 +25,7 @@ d:P38        d:nama	               "Zaregoto Series" ;
              d:airedPublished      "Feb 5, 2002 to Nov 7, 2005" ;
              d:studiosAuthor       "NISIO, ISIN (Story), Take (Art)" ;
              d:status              "Finished";
+             d:genre               "Action, Mystery, Drama, Supernatural";
              d:episodeChapter       71.
 
 d:P39        d:nama	               "Kono Subarashii Sekai ni Shukufuku wo!" ;
@@ -31,6 +34,7 @@ d:P39        d:nama	               "Kono Subarashii Sekai ni Shukufuku wo!" ;
              d:airedPublished      "Oct 1, 2013 to May 1, 2020" ;
              d:studiosAuthor       "Mishima, Kurone (Art), Akatsuki, Natsume (Story)" ;
              d:status              "Finished";
+             d:genre               "Adventure, Comedy, Fantasy, Supernatural";
              d:episodeChapter       127.
 
 d:P40        d:nama	               "Mushoku Tensei: Isekai Ittara Honki Dasu" ;
@@ -39,6 +43,7 @@ d:P40        d:nama	               "Mushoku Tensei: Isekai Ittara Honki Dasu" ;
              d:airedPublished      "Jan 23, 2014 to ?" ;
              d:studiosAuthor       "Rifujin na Magonote (Story), Sirotaka (Art)" ;
              d:status              "Publishing";
+             d:genre               "Fantasy";
              d:episodeChapter       132.
 
 d:P41        d:nama	               "Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?" ;
@@ -47,6 +52,7 @@ d:P41        d:nama	               "Shuumatsu Nani Shitemasu ka? Isogashii desu 
              d:airedPublished      "Nov 1, 2014 to Apr 1, 2016" ;
              d:studiosAuthor       "Kareno, Akira (Story), ue (Art)" ;
              d:status              "Finished";
+             d:genre               "Drama, Fantasy, Romance, Sci-Fi";
              d:episodeChapter       25.
 
 d:P42        d:nama	               "Violet Evergarden" ;
@@ -55,6 +61,7 @@ d:P42        d:nama	               "Violet Evergarden" ;
              d:airedPublished      "Dec 25, 2015 to Dec 26, 2016" ;
              d:studiosAuthor       "Akatsuki, Kana (Story), Takase, Akiko (Art)" ;
              d:status              "Finished";
+             d:genre               "Drama, Fantasy";
              d:episodeChapter       13.
 
 d:P43        d:nama	               "Kino no Tabi: The Beautiful World" ;
@@ -63,6 +70,7 @@ d:P43        d:nama	               "Kino no Tabi: The Beautiful World" ;
              d:airedPublished      "Mar 10, 2000 to ?" ;
              d:studiosAuthor       "Sigsawa, Keiichi (Story), Kuroboshi, Kouhaku (Art)" ;
              d:status              "Publishing";
+             d:genre               "Adventure, Mystery, Drama, Fantasy, Sci-Fi, Psychological";
              d:episodeChapter       6.
 
 d:P44        d:nama	               "Fate/Zero" ;
@@ -71,6 +79,7 @@ d:P44        d:nama	               "Fate/Zero" ;
              d:airedPublished      "Dec 29, 2006 to Dec 29, 2007" ;
              d:studiosAuthor       "Takeuchi, Takashi (Art), Urobuchi, Gen (Story)" ;
              d:status              "Finished";
+             d:genre               "Action, Fantasy, Supernatural";
              d:episodeChapter       18.
 
 d:P45        d:nama	               "Baccano!" ;
@@ -79,6 +88,7 @@ d:P45        d:nama	               "Baccano!" ;
              d:airedPublished      "Feb 10, 2003 to ?" ;
              d:studiosAuthor       "Narita, Ryohgo (Story), Enami, Katsumi (Art)" ;
              d:status              "Publishing";
+             d:genre               "Action, Mystery, Fantasy";
              d:episodeChapter       26.
 
 d:P46        d:nama	               "Suzumiya Haruhi Series" ;
@@ -87,6 +97,7 @@ d:P46        d:nama	               "Suzumiya Haruhi Series" ;
              d:airedPublished      "Jun 6, 2003 to ?" ;
              d:studiosAuthor       "Tanigawa, Nagaru (Story), Itou, Noizi (Art)" ;
              d:status              "Publishing";
+             d:genre               "Comedy, Drama, School, Sci-Fi, Supernatural";
              d:episodeChapter       45.
 
 d:P47        d:nama	               "No Game No Life" ;
@@ -95,6 +106,7 @@ d:P47        d:nama	               "No Game No Life" ;
              d:airedPublished      "Apr 25, 2012 to ?" ;
              d:studiosAuthor       "Kamiya, Yuu (Story & Art)" ;
              d:status              "Publishing";
+             d:genre               "Comedy, Ecchi, Fantasy, Game, Supernatural";
              d:episodeChapter       25.
 
 d:P48        d:nama	               "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen" ;
@@ -103,6 +115,7 @@ d:P48        d:nama	               "Honzuki no Gekokujou: Shisho ni Naru Tame ni
              d:airedPublished      "Jan 25, 2015 to ?" ;
              d:studiosAuthor       "Shiina, You (Art), Kazuki, Miya (Story)" ;
              d:status              "Publishing";
+             d:genre               "Fantasy";
              d:episodeChapter       667.
 
 d:P49        d:nama	               "Seishun Buta Yarou Series" ;
@@ -111,6 +124,7 @@ d:P49        d:nama	               "Seishun Buta Yarou Series" ;
              d:airedPublished      "Apr 10, 2014 to ?" ;
              d:studiosAuthor       "Kamoshida, Hajime (Story), Mizoguchi, Keiji (Art)" ;
              d:status              "Publishing";
+             d:genre               "Comedy, Romance, School";
              d:episodeChapter       17.
 
 d:P50        d:nama	               "Fullmetal Alchemist" ;
@@ -119,6 +133,7 @@ d:P50        d:nama	               "Fullmetal Alchemist" ;
              d:airedPublished      "Feb , 2003 to Apr 22, 2010" ;
              d:studiosAuthor       "Arakawa, Hiromu (Art), Inoue, Makoto (Story)" ;
              d:status              "Finished";
+             d:genre               "Action, Adventure, Comedy, Mystery, Drama, Historical, Shounen, Supernatural, Psychological";
              d:episodeChapter       35.
 
 d:P51        d:nama	               "Steins;Gate" ;
@@ -127,6 +142,7 @@ d:P51        d:nama	               "Steins;Gate" ;
              d:airedPublished      "Jun 30, 2011 to May 31, 2012" ;
              d:studiosAuthor       "Sakai, Kyuuta (Art), Miwa, Kiyomune (Story)" ;
              d:status              "Finished";
+             d:genre               "Sci-Fi, Thriller";
              d:episodeChapter       17.
 
 d:P52        d:nama	               "Umineko no Naku Koro ni" ;
@@ -135,6 +151,7 @@ d:P52        d:nama	               "Umineko no Naku Koro ni" ;
              d:airedPublished      "Jul 1, 2009 to Aug 3, 2010" ;
              d:studiosAuthor       "Ryukishi07 (Story), Tomohi (Art)" ;
              d:status              "Finished";
+             d:genre               "Mystery, Fantasy, Horror, Supernatural, Psychological, Thriller";
              d:episodeChapter       53.
 
 d:P53        d:nama	               "Sen to Chihiro no Kamikakushi / Spirited Away" ;
@@ -143,6 +160,7 @@ d:P53        d:nama	               "Sen to Chihiro no Kamikakushi / Spirited Awa
              d:airedPublished      "Jul 20, 2001" ;
              d:studiosAuthor       "Studio Ghibli" ;
              d:status              "Finished";
+             d:genre               "Adventure, Supernatural, Drama";
              d:episodeChapter       1.
 
 d:P54        d:nama	               "Gintama: The Final" ;
@@ -151,6 +169,7 @@ d:P54        d:nama	               "Gintama: The Final" ;
              d:airedPublished      "Jan 8, 2021" ;
              d:studiosAuthor       "Bandai Namco Pictures" ;
              d:status              "Finished";
+             d:genre               "Action, Sci-Fi, Comedy, Historical, Parody, Drama, Samurai, Shounen";
              d:episodeChapter       1.
 
 d:P55        d:nama	               "Jujutsu Kaisen (TV)" ;
@@ -159,4 +178,5 @@ d:P55        d:nama	               "Jujutsu Kaisen (TV)" ;
              d:airedPublished      "Oct 3, 2020 to Mar 27, 2021" ;
              d:studiosAuthor       "MAPPA" ;
              d:status              "Finished";
+             d:genre               "Action, Demons, Supernatural, School, Shounen";
              d:episodeChapter       24.
