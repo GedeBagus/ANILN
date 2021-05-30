@@ -10,6 +10,7 @@ WHERE
         d:airedPublished ?Rilis;
         d:studiosAuthor ?Penerbit;
         d:status ?Status;
+        d:genre ?Genre;
         d:episodeChapter ?JumlahEps
 }
 
@@ -30,4 +31,5 @@ WHERE
 #         d:status ?Status;
 #         d:episodeChapter ?JumlahEps
 #   		FILTER regex(?Nama, "Gintama")
+#           FILTER regex(?Nama, '$test')
 # }
