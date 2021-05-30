@@ -32,7 +32,7 @@
   if (isset($_POST['search-aniln'])) {
     $test = $_POST['search-aniln'];
     $data = sparql_get(
-      "http://63ed0738ab2f.ngrok.io/aniln",
+      "http://d7959fbc1278.ngrok.io/aniln",
       "
         PREFIX p: <http://Aniln.com>
         PREFIX d: <http://Aniln.com/ns/data#>
@@ -54,7 +54,7 @@
     );
   } else {
     $data = sparql_get(
-      "http://63ed0738ab2f.ngrok.io/aniln",
+      "http://d7959fbc1278.ngrok.io/aniln",
       "
         PREFIX p: <http://Aniln.com>
         PREFIX d: <http://Aniln.com/ns/data#>
