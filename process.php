@@ -1,7 +1,7 @@
 <?php
  require_once("sparqllib.php");
  $test = "";
- 
+ $url = "http://localhost:3030/aniln";
  $data_received = json_decode(file_get_contents("php://input"));
  if ($data_received) {
    $data = [];
@@ -10,7 +10,7 @@
     foreach($datArray as $singleData){
       $test = $data_received->data;
       $data_temp = sparql_get(
-      "http://localhost:3030/aniln",
+      $url,
       "
       PREFIX p: <http://Aniln.com>
       PREFIX d: <http://Aniln.com/ns/data#>
@@ -19,16 +19,17 @@
       WHERE
       { 
         ?s  d:nama ?Nama;
-        d:sinopsis ?Sinopsis;
-        d:airedPublished ?Rilis;
-        d:studiosAuthor ?Penerbit;
-        d:status ?Status;
-        d:genre ?Genre;
-        d:image ?Image;
-        d:episodeChapter ?JumlahEps;
-        d:score ?Score.
-  ?t 	d:jenis ?Tipe;
-  d:isJenis ?s.
+                d:sinopsis ?Sinopsis;
+                d:airedPublished ?Rilis;
+                d:studiosAuthor ?Penerbit;
+                d:genre ?Genre;
+                d:image ?Image;
+                d:episodeChapter ?JumlahEps;
+                d:score ?Score.
+  			?t 	d:jenis ?Tipe;
+  				  d:isJenis ?s.
+        ?x 	d:status ?Status;
+  				  d:isStatus ?s.
               FILTER (regex(?Nama, '$singleData','i') || regex(?Tipe, '$singleData','i') || regex(?Status,  '$singleData','i') || regex(?Genre, '$test','i'))
 
       }
@@ -41,7 +42,7 @@
    }else{
     $test = $data_received->data;
     $data = sparql_get(
-      "http://localhost:3030/aniln",
+      $url,
       "
       PREFIX p: <http://Aniln.com>
       PREFIX d: <http://Aniln.com/ns/data#>
@@ -50,16 +51,17 @@
       WHERE
       { 
         ?s  d:nama ?Nama;
-        d:sinopsis ?Sinopsis;
-        d:airedPublished ?Rilis;
-        d:studiosAuthor ?Penerbit;
-        d:status ?Status;
-        d:genre ?Genre;
-        d:image ?Image;
-        d:episodeChapter ?JumlahEps;
-        d:score ?Score.
-  ?t 	d:jenis ?Tipe;
-  d:isJenis ?s.
+                d:sinopsis ?Sinopsis;
+                d:airedPublished ?Rilis;
+                d:studiosAuthor ?Penerbit;
+                d:genre ?Genre;
+                d:image ?Image;
+                d:episodeChapter ?JumlahEps;
+                d:score ?Score.
+  			?t 	d:jenis ?Tipe;
+  				  d:isJenis ?s.
+        ?x 	d:status ?Status;
+  				  d:isStatus ?s.
               FILTER (regex(?Nama, '$test','i') || regex(?Tipe, '$test','i') || regex(?Status,  '$test','i') || regex(?Genre, '$test','i'))
 
       }
@@ -68,7 +70,7 @@
   }
 } else {
     $data = sparql_get(
-      "http://localhost:3030/aniln",
+      $url,
       "
       PREFIX p: <http://Aniln.com>
       PREFIX d: <http://Aniln.com/ns/data#>
@@ -77,16 +79,17 @@
       WHERE
       { 
         ?s  d:nama ?Nama;
-        d:sinopsis ?Sinopsis;
-        d:airedPublished ?Rilis;
-        d:studiosAuthor ?Penerbit;
-        d:status ?Status;
-        d:genre ?Genre;
-        d:image ?Image;
-        d:episodeChapter ?JumlahEps;
-        d:score ?Score.
-?t 	d:jenis ?Tipe;
-  d:isJenis ?s.
+                d:sinopsis ?Sinopsis;
+                d:airedPublished ?Rilis;
+                d:studiosAuthor ?Penerbit;
+                d:genre ?Genre;
+                d:image ?Image;
+                d:episodeChapter ?JumlahEps;
+                d:score ?Score.
+  			?t 	d:jenis ?Tipe;
+  				  d:isJenis ?s.
+        ?x 	d:status ?Status;
+  				  d:isStatus ?s.
       }
                   "
     );

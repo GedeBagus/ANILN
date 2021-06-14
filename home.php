@@ -25,7 +25,7 @@
               <v-col cols="12">
                 <form @submit.prevent="submit">
                   <v-text-field label="Search Anime or Light Novel" color="primary" v-model="input"
-                    placeholder="Enter Anime or Light Novel Name" @keypress.enter="show">
+                    placeholder="Enter Anime or Light Novel Name" @input="getAnime(input)" @keypress.enter="show">
 
                     <template v-slot:append>
 
@@ -372,7 +372,7 @@
           name : "Shoujo"
         },
         {
-          name : "Physchological"
+          name : "Psychological"
         },
         {
           name : "Mystery"
@@ -469,15 +469,17 @@
     computed: {
       filteredList: function () {
         return Object.values(this.anime_data).sort((p1,p2) => {
-                    if(this.sortedItem != 'JumlahEps' || this.sortedItem != 'Score'){
+                    if(this.sortedItem != 'JumlahEps' && this.sortedItem != 'Score'){
                     let modifier = 1;
                     if(this.sortType === 'desc') modifier = -1;
-                    if(p1[this.sortedItem] < p2[this.sortedItem]) return -1 * modifier; if(p1[this.sortedItem] > p2[this.sortedItem]) return 1 * modifier;
+                    if(p1[this.sortedItem] < p2[this.sortedItem]) return -1 * modifier; 
+                    if(p1[this.sortedItem] > p2[this.sortedItem]) return 1 * modifier;
                     return 0;
                   }else {
                     let modifier = 1;
                     if(this.sortType === 'desc') modifier = -1;
-                    if(parseFloat(p1[this.sortedItem]) < parseFloat(p2[this.sortedItem])) return -1 * modifier; if(parseFloat(p1[this.sortedItem]) > parseFloat(p2[this.sortedItem])) return 1 * modifier;
+                    if(parseFloat(p1[this.sortedItem]) < parseFloat(p2[this.sortedItem])) return -1 * modifier; 
+                    if(parseFloat(p1[this.sortedItem]) > parseFloat(p2[this.sortedItem])) return 1 * modifier;
                     return 0;
                   }
                 }).slice(0, this.listToShow)
