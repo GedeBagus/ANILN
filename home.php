@@ -41,14 +41,14 @@
                 
                   <v-row>
                 <v-col cols="12" sm="2">
-                <h3>Search Anime / Novel by Genre</h3>
-                  <v-autocomplete label="Search by Genre" placeholder="Select Genre" :items="genre"
+                <h3>Select Anime / Novel by Genre</h3>
+                  <v-autocomplete label="Select Genre" placeholder="Select Genre" :items="genre"
                     v-model="selected_genre" item-text="name" item-value="name" @change="getAnime(selected_genre)">
                   </v-autocomplete>
                 </v-col>
                 <v-col cols="12" sm="2">
                 <h3>Select Media Type</h3>
-                  <v-autocomplete label="Search by Media" placeholder="Select Media" :items="media"
+                  <v-autocomplete label="Select Media Type" placeholder="Select Media" :items="media"
                     v-model="mediaType" item-text="name" item-value="name">
                   </v-autocomplete>
                 </v-col>
