@@ -364,6 +364,7 @@ d:P36        d:nama	               "Overlord" ;
              d:studiosAuthor       "Maruyama, Kugane (Story), so-bin (Art)" ;
              d:status              "Publishing";
              d:genre               "Action, Fantasy, Game, Magic, Supernatural";
+             d:image                "https://cdn.myanimelist.net/images/anime/7/88019.jpg";
              d:episodeChapter       14;
              d:score                "8.68".
 
@@ -373,6 +374,7 @@ d:P37        d:nama	               "86—Eighty-Six" ;
              d:studiosAuthor       "Shirabi (Art), Asato, Asato (Story)" ;
              d:status              "Publishing";
              d:genre               "Action, Drama, Sci-Fi, Military";
+             d:image                "https://cdn.myanimelist.net/images/manga/3/194315.jpg";
              d:episodeChapter       21;
              d:score                "8.67".
 
@@ -382,6 +384,7 @@ d:P38        d:nama	               "Zaregoto Series" ;
              d:studiosAuthor       "NISIO, ISIN (Story), Take (Art)" ;
              d:status              "Finished";
              d:genre               "Action, Mystery, Drama, Supernatural";
+             d:image                "https://cdn.myanimelist.net/images/manga/3/194315.jpg";
              d:episodeChapter       71;
              d:score                "8.66".
 
@@ -391,6 +394,7 @@ d:P39        d:nama	               "Kono Subarashii Sekai ni Shukufuku wo!" ;
              d:studiosAuthor       "Mishima, Kurone (Art), Akatsuki, Natsume (Story)" ;
              d:status              "Finished";
              d:genre               "Adventure, Comedy, Fantasy, Supernatural";
+             d:image                "https://cdn.myanimelist.net/images/manga/1/174932.jpg";
              d:episodeChapter       127;
              d:score                "8.65".
 
@@ -400,6 +404,7 @@ d:P40        d:nama	               "Mushoku Tensei: Isekai Ittara Honki Dasu" ;
              d:studiosAuthor       "Rifujin na Magonote (Story), Sirotaka (Art)" ;
              d:status              "Publishing";
              d:genre               "Fantasy";
+             d:image                "https://cdn.myanimelist.net/images/manga/1/174932.jpg";
              d:episodeChapter       132;
              d:score                "8.63".
 
@@ -409,6 +414,7 @@ d:P41        d:nama	               "Shuumatsu Nani Shitemasu ka? Isogashii desu 
              d:studiosAuthor       "Kareno, Akira (Story), ue (Art)" ;
              d:status              "Finished";
              d:genre               "Drama, Fantasy, Romance, Sci-Fi";
+             d:image                "https://cdn.myanimelist.net/images/manga/3/174609.jpg";
              d:episodeChapter       25;
              d:score                "8.60".
 
@@ -418,6 +424,7 @@ d:P42        d:nama	               "Violet Evergarden" ;
              d:studiosAuthor       "Akatsuki, Kana (Story), Takase, Akiko (Art)" ;
              d:status              "Finished";
              d:genre               "Drama, Fantasy";
+             d:image                "https://cdn.myanimelist.net/images/manga/1/190961.jpg";
              d:episodeChapter       13;
              d:score                "8.62".
 
@@ -427,6 +434,7 @@ d:P43        d:nama	               "Kino no Tabi: The Beautiful World" ;
              d:studiosAuthor       "Sigsawa, Keiichi (Story), Kuroboshi, Kouhaku (Art)" ;
              d:status              "Publishing";
              d:genre               "Adventure, Mystery, Drama, Fantasy, Sci-Fi, Psychological";
+             d:image                "https://cdn.myanimelist.net/images/manga/4/1146.jpg";
              d:episodeChapter       6;
              d:score                "8.58".
 
@@ -436,6 +444,7 @@ d:P44        d:nama	               "Fate/Zero" ;
              d:studiosAuthor       "Takeuchi, Takashi (Art), Urobuchi, Gen (Story)" ;
              d:status              "Finished";
              d:genre               "Action, Fantasy, Supernatural";
+             d:image                "https://cdn.myanimelist.net/images/manga/3/186073.jpg";
              d:episodeChapter       18;
              d:score                "8.58".
 
@@ -445,6 +454,7 @@ d:P45        d:nama	               "Baccano!" ;
              d:studiosAuthor       "Narita, Ryohgo (Story), Enami, Katsumi (Art)" ;
              d:status              "Publishing";
              d:genre               "Action, Mystery, Fantasy";
+             d:image                "https://cdn.myanimelist.net/images/manga/2/172736.jpg";
              d:episodeChapter       26;
              d:score                "8.57".
 
@@ -454,6 +464,7 @@ d:P46        d:nama	               "Suzumiya Haruhi Series" ;
              d:studiosAuthor       "Tanigawa, Nagaru (Story), Itou, Noizi (Art)" ;
              d:status              "Publishing";
              d:genre               "Comedy, Drama, School, Sci-Fi, Supernatural";
+             d:image                "https://cdn.myanimelist.net/images/manga/1/186142.jpg";
              d:episodeChapter       45;
              d:score                "8.56".
 
@@ -463,6 +474,7 @@ d:P47        d:nama	               "No Game No Life" ;
              d:studiosAuthor       "Kamiya, Yuu (Story & Art)" ;
              d:status              "Publishing";
              d:genre               "Comedy, Ecchi, Fantasy, Game, Supernatural";
+             d:image                "https://cdn.myanimelist.net/images/manga/2/188186.jpg";
              d:episodeChapter       25;
              d:score                "8.54".
 
@@ -471,6 +483,7 @@ d:P48        d:nama	               "Honzuki no Gekokujou: Shisho ni Naru Tame ni
              d:airedPublished      "Jan 25, 2015 to ?" ;
              d:studiosAuthor       "Shiina, You (Art), Kazuki, Miya (Story)" ;
              d:status              "Publishing";
+             d:image                "https://cdn.myanimelist.net/images/manga/1/149552.jpg";
              d:genre               "Fantasy";
              d:episodeChapter       667;
              d:score                "8.52".
@@ -481,6 +494,7 @@ d:P49        d:nama	               "Seishun Buta Yarou Series" ;
              d:studiosAuthor       "Kamoshida, Hajime (Story), Mizoguchi, Keiji (Art)" ;
              d:status              "Publishing";
              d:genre               "Comedy, Romance, School";
+            d:image                "https://cdn.myanimelist.net/images/manga/2/177502.jpg";
              d:episodeChapter       17;
              d:score                "8.51".
 
@@ -490,6 +504,7 @@ d:P50        d:nama	               "Fullmetal Alchemist" ;
              d:studiosAuthor       "Arakawa, Hiromu (Art), Inoue, Makoto (Story)" ;
              d:status              "Finished";
              d:genre               "Action, Adventure, Comedy, Mystery, Drama, Historical, Shounen, Supernatural, Psychological";
+            d:image                "https://cdn.myanimelist.net/images/manga/1/202288.jpg";
              d:episodeChapter       35;
              d:score                "8.47".
 
@@ -499,6 +514,7 @@ d:P51        d:nama	               "Steins;Gate" ;
              d:studiosAuthor       "Sakai, Kyuuta (Art), Miwa, Kiyomune (Story)" ;
              d:status              "Finished";
              d:genre               "Sci-Fi, Thriller";
+            d:image                "https://cdn.myanimelist.net/images/manga/3/72649.jpg";
              d:episodeChapter       17;
              d:score                "8.47".
 
@@ -508,6 +524,7 @@ d:P52        d:nama	               "Umineko no Naku Koro ni" ;
              d:studiosAuthor       "Ryukishi07 (Story), Tomohi (Art)" ;
              d:status              "Finished";
              d:genre               "Mystery, Fantasy, Horror, Supernatural, Psychological, Thriller";
+            d:image                "https://cdn.myanimelist.net/images/manga/1/185819.jpg";
              d:episodeChapter       53;
              d:score                "8.47".
 
@@ -517,6 +534,7 @@ d:P53        d:nama	               "Sen to Chihiro no Kamikakushi / Spirited Awa
              d:studiosAuthor       "Studio Ghibli" ;
              d:status              "Finished";
              d:genre               "Adventure, Supernatural, Drama";
+            d:image                "https://cdn.myanimelist.net/images/anime/6/79597.jpg";
              d:episodeChapter       1;
              d:score                "8.81".
 
@@ -526,6 +544,7 @@ d:P54        d:nama	               "Gintama: The Final" ;
              d:studiosAuthor       "Bandai Namco Pictures" ;
              d:status              "Finished";
              d:genre               "Action, Sci-Fi, Comedy, Historical, Parody, Drama, Samurai, Shounen";
+            d:image                "https://cdn.myanimelist.net/images/anime/1027/109706.jpg";
              d:episodeChapter       1;
              d:score                "8.80".
 
@@ -535,5 +554,6 @@ d:P55        d:nama	               "Jujutsu Kaisen (TV)" ;
              d:studiosAuthor       "MAPPA" ;
              d:status              "Finished";
              d:genre               "Action, Demons, Supernatural, School, Shounen";
+            d:image                "https://cdn.myanimelist.net/images/anime/1171/109222.jpg";
              d:episodeChapter       24;
              d:score                "8.78".

@@ -40,13 +40,20 @@
               <v-col cols="12">
                 
                   <v-row>
-                <v-col cols="3">
+                <v-col cols="12" sm="2">
                 <h3>Search Anime / Novel by Genre</h3>
                   <v-autocomplete label="Search by Genre" placeholder="Select Genre" :items="genre"
                     v-model="selected_genre" item-text="name" item-value="name" @change="getAnime(selected_genre)">
                   </v-autocomplete>
                 </v-col>
-                <v-col cols="3">
+                <v-col cols="12" sm="2">
+                <h3>Select Media Type</h3>
+                  <v-autocomplete label="Search by Media" placeholder="Select Media" :items="media"
+                    v-model="mediaType" item-text="name" item-value="name">
+                  </v-autocomplete>
+                </v-col>
+             
+                <v-col cols="12" sm="2">
                 <h3>Sort by Name</h3>
                 <v-radio-group
      
@@ -65,7 +72,7 @@
       ></v-radio>
     </v-radio-group>
     </v-col>
-    <v-col cols="3">
+    <v-col cols="12" sm="2">
                 <h3>Sort by Episodes / Chapters</h3>
                 <v-radio-group
       
@@ -84,7 +91,7 @@
       ></v-radio>
     </v-radio-group>
     </v-col>
-    <v-col cols="3">
+    <v-col cols="12" sm="2">
                 <h3>Sort by Score</h3>
                 <v-radio-group
       
@@ -104,7 +111,6 @@
     </v-radio-group>
     </v-col>
                 </v-row>
-
                 <v-col cols="12">
                   <v-row>
                     <div v-for="(item,index) in filteredList" :key="index">
@@ -346,8 +352,18 @@
 
       }],
       selected_genre: '',
+      media :[{
+        name : "Clear",
+      },
+        {
+          name : "Anime"
+        },
+        {
+          name : "Light Novel"
+        }
+    ],
       genre: [{
-          name: "Refresh"
+          name: "Clear"
         },
         {
           name : "Shounen"
@@ -410,6 +426,7 @@
       listToShow: 8,
       loadList: false,
       input: '',
+      mediaType : '',
       anime_data: [],
       query: '',
       sortType : '',
@@ -418,7 +435,7 @@
     },
     methods: {
       getAnime(value) {
-        if (value != "Refresh") {
+        if (value != "Clear") {
           axios.post('process.php', {
             data: value
           }).then(response => {
@@ -464,6 +481,13 @@
                     return 0;
                   }
                 }).slice(0, this.listToShow)
+                .filter((post) =>{
+                  if(this.mediaType != "Clear"){
+                    return post.Tipe.includes(this.mediaType);
+                  }else{
+                    return post;
+                  }
+                })
       }
     }
   });
