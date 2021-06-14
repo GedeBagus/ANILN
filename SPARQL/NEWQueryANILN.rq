@@ -9,11 +9,12 @@ PREFIX d: <http://Aniln.com/ns/data#>
                 d:sinopsis ?Sinopsis;
                 d:airedPublished ?Rilis;
                 d:studiosAuthor ?Penerbit;
-                d:status ?Status;
                 d:genre ?Genre;
-                # d:image ?Image;
+                d:image ?Image;
                 d:episodeChapter ?JumlahEps;
                 d:score ?Score.
   			?t 	d:jenis ?Tipe;
-  				d:isJenis ?s.
+  				  d:isJenis ?s.
+        ?x 	d:status ?Status;
+  				  d:isStatus ?s.
         }
